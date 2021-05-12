@@ -1,26 +1,54 @@
 import React from 'react';
-import FormControl from '@material-ui/core/FormControl';
-import InputLabel from '@material-ui/core/InputLabel';
-import OutlinedInput from '@material-ui/core/OutlinedInput';
-
-import Button from '@material-ui/core/Button';
+import Logo from "../image/logo.png"
+import Arrow from "../image/arrow.png"
 
 import "../styles/login.css"
 
 
 function login(){
-    return(
-    <div>
-    <div className="Div">
-    <br/>
-    <br/>
-    <div>
-            <label>התחברות כהורה</label>
-        <br/>
+    return(    
+        <div className="all">
+            <div className="header">
+                       <img className="logoImg" src={Logo} />
+            <button className="back"> <img className="arrow" src={Arrow} />  חזרה לדף הבית </button>
+            </div>
+            <div className="div">
+            
+            <div>
+            <label className="big">התחברי כמטפלת</label>
+            <div className="signup">
+                <br/>
+                <label>שם משתמש</label>
+                <br/>
+                <input type="email"/>
+                <br/>
+                <label>סיסמא</label>
+                <br/>
+                <input type="password"/>
+                <br/>              
+            </div>
+            <button>התחברות</button>
+            </div>
+            <div>
+            <label className="big">התחבר/י כהורה</label>
+            <div className="signup">
+            <br/>
+
+                <label>אימייל</label>
+                <br/>
+                <input type="email" />
+                <br/>
+                <label>סיסמא</label>
+                <br/>
+                <input type="password"/>               
+                <br/>
+            </div>
+            <button>התחברות</button>
+            </div>
+            </div>
         </div>
-        </div>
-    </div>
     )
 }
+
 
 export default login;

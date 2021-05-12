@@ -1,0 +1,82 @@
+.signup{
+    
+    background-color: rgb(211, 247, 247);
+    margin: 2.5rem;
+    border-radius: 1.5rem;
+    height: 20rem;
+    width: 20rem;
+}
+
+.div{
+    justify-content: center;
+    align-items: center;
+     display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+input{
+    margin: 1rem;
+    border-color: white;
+    border-radius: 1.5rem;
+    height: 1.35rem;
+    width: 14rem;
+}
+
+button{
+    height: 3.5rem;
+    width: 20rem;
+    background-color: rgb(245, 219, 241);
+    border-radius: 1.5rem;
+    border-color: rgb(245, 219, 241);
+    font-size: 2rem ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(112, 109, 109);
+}
+
+.all{
+    background-image: url("../image/backgroundYellow.png");
+    flex-direction: column;
+}
+
+.big{
+    font-size: 2rem ;
+    color: rgb(112, 109, 109);
+
+}
+
+label{
+    font-size: 1rem ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+.logoImg{
+    height: 7rem;
+    width: 7rem;
+    position: absolute;
+    left: 0;
+    margin-top: 2rem;
+    margin-left: 2rem;
+
+}
+.back{
+    height: 2rem;
+    width: 15rem;
+    font-size: 1rem ;
+    position: absolute;
+    right: 0;
+    margin-top: 2rem;
+    margin-right: 2rem;
+
+}
+.arrow{
+    height:1.5rem;
+    width: 1.5rem;
+    left:0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: space-between;
+}

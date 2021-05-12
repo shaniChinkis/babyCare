@@ -1,19 +1,62 @@
 import React from 'react';
-import Paper from 'material-ui/Paper';
-
+import Logo from "../image/logo.png"
 import "../styles/signup.css"
 
-const styles = {
-    paperContainer: {
-        backgroundImage: `url(${""})`
-    }
-};
+
 
 function signUp(){
     return(    
-    <Paper style={styles.paperContainer}>
-</Paper>
+        <div className="all">
+           
+            <div className="header">
+                       <img className="logoImg" src={Logo} />
+                       </div>
+            <div className="div">
+            
+            <div>
+            <label className="big">הרשמי כמטפלת</label>
+            <div className="signup">
+                <br/>
+                <label>שם משתמש</label>
+                <br/>
+                <input type="email"/>
+                <br/>
+                <label>סיסמא</label>
+                <br/>
+                <input type="password"/>
+                <br/>              
+            </div>
+            <button>הרשמה</button>
+            </div>
+            <div>
+            <label className="big">הרשם/י כהורה</label>
+            <div className="signup">
+            <br/>
 
+                <label>אימייל</label>
+                <br/>
+                <input type="email" />
+                <br/>
+                <label>סיסמא</label>
+                <br/>
+                <input type="password"/>               
+                <br/>
+                <label>קוד מטפלת</label>
+                <br/>
+                <input type="text"/>
+                <br/>
+                <label>שם הילד</label>
+                <br/>
+                <input type="text"/>
+                <br/>
+                <label>ת.ז. הילד</label>
+                <br/>
+                <input type="text"/>
+            </div>
+            <button>הרשמה</button>
+            </div>
+            </div>
+        </div>
     )
 }
 

@@ -11,9 +11,9 @@ import AddAnotherChild from './components/addAnotherChild'
 function App() {
   return (
     <div className="App">
-     {/* <SignUp/> */}
-     <Login/>
-     {/* <GovernessHomepage/> */}
+     <SignUp/>
+    {/* <Login/> */}
+      {/* <GovernessHomepage/> */}
      {/* <ParentsHomepage/> */}
      {/* <AddAnotherChild/> */}
     </div>
