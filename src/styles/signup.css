@@ -1,4 +1,234 @@
-.signup{
+.all{
+    top: 0px;
+left: -1px;
+width: 1921px;
+height: 1080px;
+background: transparent url('../image/backgroundYellow.png') 0% 0% no-repeat padding-box;
+opacity: 0.78;
+}
+
+.signUpG{
+    top: 144px;
+left: 452px;
+width: 316px;
+height: 60px;
+text-align: left;
+font: normal normal normal 45px/60px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+
+.signUp{
+    top: 213px;
+left: 361px;
+width: 467px;
+height: 584px;
+background: #E6F8FF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 36px;
+opacity: 1;
+}
+
+.userName{
+    top: 266px;
+left: 538px;
+width: 113px;
+height: 28px;
+text-align: left;
+font: normal normal normal 21px/28px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+
+.userNameInput{
+    top: 294px;
+left: 433px;
+width: 324px;
+height: 39px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 20px;
+opacity: 1;
+}
+
+.password{
+    top: 364px;
+left: 564px;
+width: 62px;
+height: 28px;
+text-align: left;
+font: normal normal normal 21px/28px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+
+.passwordInput{
+    top: 399px;
+left: 433px;
+width: 324px;
+height: 39px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 20px;
+opacity: 1;
+}
+
+.signUpBtnG{
+    top: 820px;
+left: 361px;
+width: 467px;
+height: 80px;
+background: #FFE6F3 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 23px;
+opacity: 1;
+}
+
+.signUpP{
+    top: 144px;
+left: 1107px;
+width: 286px;
+height: 60px;
+text-align: left;
+font: normal normal normal 45px/60px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+
+.signup2{
+    top: 213px;
+left: 1016px;
+width: 467px;
+height: 584px;
+background: #E6F8FF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 36px;
+opacity: 1;
+}
+
+.userNameP{
+    top: 266px;
+left: 1222px;
+width: 56px;
+height: 28px;
+text-align: left;
+font: normal normal normal 21px/28px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+
+.userNameInputP{
+    top: 294px;
+left: 1088px;
+width: 324px;
+height: 39px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 20px;
+opacity: 1;
+}
+
+.passwordP{
+    top: 364px;
+left: 1219px;
+width: 62px;
+height: 28px;
+text-align: left;
+font: normal normal normal 21px/28px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+
+.passwordInputP{
+    top: 399px;
+left: 1088px;
+width: 324px;
+height: 39px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 20px;
+opacity: 1;
+}
+
+.govCode{
+    top: 462px;
+left: 1198px;
+width: 103px;
+height: 28px;
+text-align: left;
+font: normal normal normal 21px/28px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+
+.govCodeInput{
+    top: 498px;
+left: 1088px;
+width: 324px;
+height: 39px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 20px;
+opacity: 1;
+}
+
+.childName{
+    top: 559px;
+    left: 1211px;
+    width: 78px;
+    height: 28px;
+    text-align: left;
+    font: normal normal normal 21px/28px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.childNameInput{
+    top: 596px;
+    left: 1088px;
+    width: 324px;
+    height: 39px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.childId{
+    top: 667px;
+left: 1210px;
+width: 79px;
+height: 28px;
+text-align: left;
+font: normal normal normal 21px/28px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+
+.childIdInput{
+    top: 695px;
+left: 1088px;
+width: 324px;
+height: 39px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 20px;
+opacity: 1;
+}
+
+.signUpBtnP{
+    top: 820px;
+left: 1016px;
+width: 467px;
+height: 80px;
+background: #FFE6F3 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 23px;
+opacity: 1;
+}
+/* .signup{
     background-color: rgb(211, 247, 247);
     margin: 2.5rem;
     border-radius: 1.5rem;
@@ -61,4 +291,4 @@ img{
     flex-direction: row;
     width: 100%;
     align-items: space-between;
-}
+} */

@@ -8,42 +8,40 @@ import "../styles/login.css"
 function login(){
     return(    
         <div className="all">
-            <div className="header">
-                       <img className="logoImg" src={Logo} />
-            <button className="back"> <img className="arrow" src={Arrow} />  חזרה לדף הבית </button>
-            </div>
+            <div className="logo"></div>
+
             <div className="div">
-            
+
             <div>
-            <label className="big">התחברי כמטפלת</label>
-            <div className="signup">
+            <label className="loginG">התחברי כמטפלת</label>
+            <div className="loginDivG">
                 <br/>
-                <label>שם משתמש</label>
+                <label className="name">שם משתמש</label>
                 <br/>
-                <input type="email"/>
+                <input className="inputEmail" type="email"/>
                 <br/>
-                <label>סיסמא</label>
+                <label className="password">סיסמא</label>
                 <br/>
-                <input type="password"/>
+                <input  className="inputPassword" type="password"/>
                 <br/>              
             </div>
-            <button>התחברות</button>
+            <button className="loginBtn">התחברות</button>
             </div>
             <div>
-            <label className="big">התחבר/י כהורה</label>
-            <div className="signup">
+            <label className="loginP">התחבר/י כהורה</label>
+            <div className="loginDivP">
             <br/>
 
-                <label>אימייל</label>
+                <label className="emailP">אימייל</label>
                 <br/>
-                <input type="email" />
+                <input className="emailInput" type="email" />
                 <br/>
-                <label>סיסמא</label>
+                <label className="passwordP">סיסמא</label>
                 <br/>
-                <input type="password"/>               
+                <input className="inputPassword" type="password"/>               
                 <br/>
             </div>
-            <button>התחברות</button>
+            <button className="loginBtnP">התחברות</button>
             </div>
             </div>
         </div>

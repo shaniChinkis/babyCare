@@ -1,0 +1,17 @@
+.g_all{
+    top: 0px;
+left: 0px;
+width: 1920px;
+height: 1080px;
+opacity: 1;
+background: transparent url('../image/backgroundPink.png') 0% 0% no-repeat padding-box;
+}
+
+.mobileImg{
+    top: 75px;
+left: 559px;
+width: 866px;
+height: 698px;
+background: transparent url('../image/mobile.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}

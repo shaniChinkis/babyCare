@@ -7,56 +7,49 @@ import "../styles/signup.css"
 function signUp(){
     return(    
         <div className="all">
-           
-            <div className="header">
-                       <img className="logoImg" src={Logo} />
-                       </div>
-            <div className="div">
-            
             <div>
-            <label className="big">הרשמי כמטפלת</label>
-            <div className="signup">
+            <label className="signUpG">הרשמי כמטפלת</label>
+            <div className="signUp">
                 <br/>
-                <label>שם משתמש</label>
+                <label className="userName">שם משתמש</label>
                 <br/>
-                <input type="email"/>
+                <input className="userNameInput" type="email"/>
                 <br/>
-                <label>סיסמא</label>
+                <label className="password">סיסמא</label>
                 <br/>
-                <input type="password"/>
+                <input className="passwordInput" type="password"/>
                 <br/>              
             </div>
-            <button>הרשמה</button>
+            <button className="signUpBtnG">הרשמה</button>
             </div>
             <div>
-            <label className="big">הרשם/י כהורה</label>
-            <div className="signup">
+            <label className="signUpP">הרשם/י כהורה</label>
+            <div className="signup2">
             <br/>
 
-                <label>אימייל</label>
+                <label className="userNameP">אימייל</label>
                 <br/>
-                <input type="email" />
+                <input className="userNameInputP" type="email" />
                 <br/>
-                <label>סיסמא</label>
+                <label className="passwordP" >סיסמא</label>
                 <br/>
-                <input type="password"/>               
+                <input className="passwordInputP" type="password"/>               
                 <br/>
-                <label>קוד מטפלת</label>
+                <label className="govCode" >קוד מטפלת</label>
                 <br/>
-                <input type="text"/>
+                <input className="govCodeInput" type="text"/>
                 <br/>
-                <label>שם הילד</label>
+                <label className="childName">שם הילד</label>
                 <br/>
-                <input type="text"/>
+                <input className="childNameInput" type="text"/>
                 <br/>
-                <label>ת.ז. הילד</label>
+                <label className="childId" >ת.ז. הילד</label>
                 <br/>
-                <input type="text"/>
+                <input className="childIdInput" type="text"/>
             </div>
-            <button>הרשמה</button>
+            <button className="signUpBtnP" >הרשמה</button>
             </div>
             </div>
-        </div>
     )
 }
 

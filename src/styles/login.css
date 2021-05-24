@@ -1,13 +1,178 @@
-.signup{
- 
-    background-color: rgb(211, 247, 247);
-    margin: 2.5rem;
-    border-radius: 1.5rem;
-    height: 14rem;
-    width: 20rem;
+.all{
+    top: 0px;
+left: -1px;
+width: 1921px;
+height: 1080px;
+background: transparent url('../image/backgroundYellow.png') 0% 0% no-repeat padding-box;
+opacity: 0.78;
 }
 
-.div{
+.logo{
+    top: 32px;
+    left: 53px;
+    width: 103px;
+    height: 112px;
+    background: transparent url('../image/logo.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.loginDivG{
+    top: 349px;
+    left: 361px;
+    width: 467px;
+    height: 310px;
+    background: #E6F8FF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 36px;
+    opacity: 1;
+}
+.loginG{
+    top: 280px;
+left: 425px;
+width: 339px;
+height: 60px;
+text-align: left;
+font: normal normal normal 45px/60px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+
+.name{
+    top: 402px;
+    left: 538px;
+    width: 113px;
+    height: 28px;
+    text-align: left;
+    font: normal normal normal 21px/28px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+.inputEmail{
+    top: 430px;
+    left: 433px;
+    width: 324px;
+    height: 39px;
+/* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.password{
+    top: 500px;
+left: 564px;
+width: 62px;
+height: 28px;
+text-align: left;
+font: normal normal normal 21px/28px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+
+
+.inputPassword{
+    top: 535px;
+    left: 433px;
+    width: 324px;
+    height: 39px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1;   
+}
+
+
+.loginBtn{
+    top: 709px;
+left: 361px;
+width: 467px;
+height: 80px;
+background: #FFE6F3 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 23px;
+opacity: 1;
+}
+
+.loginP{
+    top: 280px;
+left: 1095px;
+width: 309px;
+height: 60px;
+text-align: left;
+font: normal normal normal 45px/60px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+
+.loginDivP{
+    top: 349px;
+left: 1016px;
+width: 467px;
+height: 310px;
+background: #E6F8FF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 36px;
+opacity: 1;
+}
+
+.emailP{
+    top: 402px;
+left: 1222px;
+width: 56px;
+height: 28px;
+text-align: left;
+font: normal normal normal 21px/28px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+
+.emailInput{
+    top: 430px;
+left: 1088px;
+width: 324px;
+height: 39px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 20px;
+opacity: 1;
+}
+
+.passwordP{
+    top: 500px;
+left: 1219px;
+width: 62px;
+height: 28px;
+text-align: left;
+font: normal normal normal 21px/28px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+
+.inputPassword{
+    top: 535px;
+left: 1088px;
+width: 324px;
+height: 39px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 20px;
+opacity: 1;
+}
+
+.loginBtnP{
+    top: 709px;
+left: 1016px;
+width: 467px;
+height: 80px;
+background: #FFE6F3 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 23px;
+opacity: 1;
+}
+/* .div{
     
     justify-content: center;
     align-items: center;
@@ -79,4 +244,4 @@ img{
     flex-direction: row;
     width: 100%;
     align-items: space-between;
-}
+} */
