@@ -5,7 +5,7 @@ import "../styles/addAnotherChild.css"
 import { red } from '@material-ui/core/colors';
 
 
-function addAnotherChild() {
+const addAnotherChild=() =>{
     return (
         <div className="all">
             <div className="header">

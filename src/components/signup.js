@@ -4,7 +4,7 @@ import "../styles/signup.css"
 
 
 
-function signUp(){
+const signUp=()=>{
     return(    
         <div className="all">
             <div>

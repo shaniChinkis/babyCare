@@ -4,7 +4,7 @@ import ButtonGroup from '@material-ui/core/ButtonGroup';
 import "../styles/parentsHomepage.css"
 
 
-function parentsHomepage(){
+const parentsHomepage=()=>{
     return(
         <div>
                 <h1>ParentsHomepage</h1>

@@ -1,11 +1,18 @@
-import React from 'react';
-import Logo from "../image/logo.png"
-import Arrow from "../image/arrow.png"
+import React, { useState } from 'react';
 
+import loginAPI from '../api/userApi'
 import "../styles/login.css"
 
 
-function login(){
+const Login=()=> {
+    const {userName, setUserName} = useState("");
+    const {password, setPassword} = useState("");
+    const onlogin = () =>{
+        loginAPI(userName,password).then((res)=>{
+           return  res.token();
+        })
+    }
+
     return(    
         <div className="all">
             <div className="logo"></div>
@@ -18,14 +25,14 @@ function login(){
                 <br/>
                 <label className="name">שם משתמש</label>
                 <br/>
-                <input className="inputEmail" type="email"/>
+                <input className="inputEmail" type="email" onChange={(e) => setUserName(e.target.value)}/>
                 <br/>
                 <label className="password">סיסמא</label>
                 <br/>
-                <input  className="inputPassword" type="password"/>
+                <input  className="inputPassword" type="password" onChange={(e) => setPassword(e.target.value)}/>
                 <br/>              
             </div>
-            <button className="loginBtn">התחברות</button>
+            <button className="loginBtn" onClick={onlogin}>התחברות</button>
             </div>
             <div>
             <label className="loginP">התחבר/י כהורה</label>
@@ -49,4 +56,4 @@ function login(){
 }
 
 
-export default login;
+export default Login;

@@ -4,7 +4,7 @@ import ButtonGroup from '@material-ui/core/ButtonGroup';
 import "../styles/governessHomepage.css"
 
 
-function governessHomepage(){
+const governessHomepage=()=>{
     return(
         <div className="g_all">
             <div className="mobileImg" ></div>
