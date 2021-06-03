@@ -1,17 +1,14 @@
-.all{
-    top: 0px;
-left: -1px;
-width: 1921px;
-height: 1080px;
-background: transparent url('../image/backgroundYellow.png') 0% 0% no-repeat padding-box;
-opacity: 0.78;
+.allS{
+width:100%; 
+height:100%; 
+background: url('../image/backgroundYellow.png') top right;
+background-attachment:fixed;
+background-size: cover;
+overflow: hidden;
 }
 
 .signUpG{
-    top: 144px;
-left: 452px;
-width: 316px;
-height: 60px;
+
 text-align: left;
 font: normal normal normal 45px/60px Segoe UI;
 letter-spacing: 0px;
@@ -20,17 +17,16 @@ opacity: 1;
 }
 
 .signUp{
-    top: 213px;
-left: 361px;
-width: 467px;
-height: 584px;
+
+width: 60%;
+height: 300%;
 background: #E6F8FF 0% 0% no-repeat padding-box;
 box-shadow: 0px 3px 6px #00000029;
 border-radius: 36px;
 opacity: 1;
 }
 
-.userName{
+.userNameS{
     top: 266px;
 left: 538px;
 width: 113px;
@@ -42,7 +38,7 @@ color: #707070;
 opacity: 1;
 }
 
-.userNameInput{
+.userNameInputS{
     top: 294px;
 left: 433px;
 width: 324px;
@@ -52,7 +48,7 @@ border-radius: 20px;
 opacity: 1;
 }
 
-.password{
+.passwordS{
     top: 364px;
 left: 564px;
 width: 62px;
@@ -64,7 +60,7 @@ color: #707070;
 opacity: 1;
 }
 
-.passwordInput{
+.passwordInputS{
     top: 399px;
 left: 433px;
 width: 324px;
@@ -74,7 +70,7 @@ border-radius: 20px;
 opacity: 1;
 }
 
-.signUpBtnG{
+.signUpBtnGS{
     top: 820px;
 left: 361px;
 width: 467px;
@@ -85,7 +81,7 @@ border-radius: 23px;
 opacity: 1;
 }
 
-.signUpP{
+.signUpPS{
     top: 144px;
 left: 1107px;
 width: 286px;
@@ -98,17 +94,15 @@ opacity: 1;
 }
 
 .signup2{
-    top: 213px;
-left: 1016px;
-width: 467px;
-height: 584px;
+width: 100%;
+height: 100%;
 background: #E6F8FF 0% 0% no-repeat padding-box;
 box-shadow: 0px 3px 6px #00000029;
 border-radius: 36px;
 opacity: 1;
 }
 
-.userNameP{
+.userNamePS{
     top: 266px;
 left: 1222px;
 width: 56px;
@@ -120,7 +114,7 @@ color: #707070;
 opacity: 1;
 }
 
-.userNameInputP{
+.userNameInputPS{
     top: 294px;
 left: 1088px;
 width: 324px;
@@ -130,7 +124,7 @@ border-radius: 20px;
 opacity: 1;
 }
 
-.passwordP{
+.passwordPS{
     top: 364px;
 left: 1219px;
 width: 62px;
@@ -142,7 +136,7 @@ color: #707070;
 opacity: 1;
 }
 
-.passwordInputP{
+.passwordInputPS{
     top: 399px;
 left: 1088px;
 width: 324px;
@@ -152,7 +146,7 @@ border-radius: 20px;
 opacity: 1;
 }
 
-.govCode{
+.govCodeS{
     top: 462px;
 left: 1198px;
 width: 103px;
@@ -164,7 +158,7 @@ color: #707070;
 opacity: 1;
 }
 
-.govCodeInput{
+.govCodeInputS{
     top: 498px;
 left: 1088px;
 width: 324px;
@@ -174,7 +168,7 @@ border-radius: 20px;
 opacity: 1;
 }
 
-.childName{
+.childNameS{
     top: 559px;
     left: 1211px;
     width: 78px;
@@ -186,7 +180,7 @@ opacity: 1;
     opacity: 1;
 }
 
-.childNameInput{
+.childNameInputS{
     top: 596px;
     left: 1088px;
     width: 324px;
@@ -196,7 +190,7 @@ opacity: 1;
     opacity: 1;
 }
 
-.childId{
+.childIdS{
     top: 667px;
 left: 1210px;
 width: 79px;
@@ -208,7 +202,7 @@ color: #707070;
 opacity: 1;
 }
 
-.childIdInput{
+.childIdInputS{
     top: 695px;
 left: 1088px;
 width: 324px;
@@ -218,7 +212,7 @@ border-radius: 20px;
 opacity: 1;
 }
 
-.signUpBtnP{
+.signUpBtnPS{
     top: 820px;
 left: 1016px;
 width: 467px;
@@ -228,67 +222,8 @@ box-shadow: 0px 3px 6px #00000029;
 border-radius: 23px;
 opacity: 1;
 }
-/* .signup{
-    background-color: rgb(211, 247, 247);
-    margin: 2.5rem;
-    border-radius: 1.5rem;
-    height:50rem;
-    width: 20rem;
-}
-
-.div{
-    justify-content: center;
-    align-items: center;
-     display: flex;
-    flex-direction: row;
-}
-input{
-    margin: 1rem;
-    border-color: white;
-    border-radius: 1.5rem;
-    height: 1.35rem;
-    width: 14rem;
-}
-
-button{
-    height: 3.5rem;
-    width: 20rem;
-    background-color: rgb(245, 219, 241);
-    border-radius: 1.5rem;
-    border-color: rgb(245, 219, 241);
-    font-size: 2rem ;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(112, 109, 109);
-
-}
-
-.all{
-    background-image: url("../image/backgroundYellow.png");
-}
-
-.big{
-    font-size: 2rem ;
-    color: rgb(112, 109, 109);
-
-}
-
-label{
-    font-size: 1rem ;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: medium;
-}
-
-img{
-    height: 7rem;
-    width: 7rem;
-    position: absolute;
-
-}
-
-
-.header {
+ 
+.containerS{
     display: flex;
     flex-direction: row;
-    width: 100%;
-    align-items: space-between;
-} */
+}

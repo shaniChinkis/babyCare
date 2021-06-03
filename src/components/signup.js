@@ -6,50 +6,51 @@ import "../styles/signup.css"
 
 const signUp=()=>{
     return(    
-        <div className="all">
-            <div>
+        <div className="allS">
+            <div className="containerS">
             <label className="signUpG">הרשמי כמטפלת</label>
             <div className="signUp">
                 <br/>
-                <label className="userName">שם משתמש</label>
+                <label className="userNameS">שם משתמש</label>
                 <br/>
-                <input className="userNameInput" type="email"/>
+                <input className="userNameInputS" type="email"/>
                 <br/>
-                <label className="password">סיסמא</label>
+                <label className="passwordS">סיסמא</label>
                 <br/>
-                <input className="passwordInput" type="password"/>
+                <input className="passwordInputS" type="password"/>
                 <br/>              
             </div>
-            <button className="signUpBtnG">הרשמה</button>
-            </div>
-            <div>
+            <button className="signUpBtnGS">הרשמה</button>
+            
             <label className="signUpP">הרשם/י כהורה</label>
             <div className="signup2">
             <br/>
 
-                <label className="userNameP">אימייל</label>
+                <label className="userNamePS">אימייל</label>
                 <br/>
-                <input className="userNameInputP" type="email" />
+                <input className="userNameInputPS" type="email" />
                 <br/>
-                <label className="passwordP" >סיסמא</label>
+                <label className="passwordPS" >סיסמא</label>
                 <br/>
-                <input className="passwordInputP" type="password"/>               
+                <input className="passwordInputPS" type="password"/>               
                 <br/>
-                <label className="govCode" >קוד מטפלת</label>
+                <label className="govCodeS" >קוד מטפלת</label>
                 <br/>
-                <input className="govCodeInput" type="text"/>
+                <input className="govCodeInputS" type="text"/>
                 <br/>
-                <label className="childName">שם הילד</label>
+                <label className="childNameS">שם הילד</label>
                 <br/>
-                <input className="childNameInput" type="text"/>
+                <input className="childNameInputS" type="text"/>
                 <br/>
-                <label className="childId" >ת.ז. הילד</label>
+                <label className="childIdS" >ת.ז. הילד</label>
                 <br/>
-                <input className="childIdInput" type="text"/>
+                <input className="childIdInputS" type="text"/>
             </div>
-            <button className="signUpBtnP" >הרשמה</button>
+            <button className="signUpBtnPS" >הרשמה</button>
             </div>
             </div>
+
+            
     )
 }
 
