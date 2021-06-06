@@ -9,29 +9,29 @@ const addAnotherChild=() =>{
         <div className="all_addAnotherChild">
             <div className="addAnotherChild_logo"></div>
             <div className="label_addAnotherChild">
-            <label className="big">להרשמת ילד נוסף</label>
+            <label className="labelbig">להרשמת ילד נוסף</label>
             </div>
             <div className="container_addAnotherChild">
                 
                    
                     <div className="addanothrchild_div">
                         <br />
-                        <label>קוד מטפלת</label>
+                        <label className="governessCode">קוד מטפלת</label>
                         <br />
-                        <input type="text" />
+                        <input className="inputgovernessCode" type="text" />
                         <br />
-                        <label>שם הילד</label>
+                        <label className="inputChildNameAdd">שם הילד</label>
                         <br />
-                        <input type="password" />
+                        <input className="ChildnameAdd" type="text" />
                         <br />
-                        <label>ת.ז. הילד</label>
+                        <label className="IdAdd">ת.ז. הילד</label>
                         <br />
-                        <input type="text" />
+                        <input className="inputIdAdd" type="text" />
                     </div>
                  
                 </div>
                 <div className="buttons_addAnotherChild">
-                    <button className>הוספה</button>
+                    <button className="addChildAdd">הוספה</button>
                 </div>
             </div>
         
