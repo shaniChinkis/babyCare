@@ -1,21 +1,20 @@
 import React from 'react';
-import Logo from "../image/logo.png"
-import Arrow from "../image/arrow.png"
+
 import "../styles/addAnotherChild.css"
-import { red } from '@material-ui/core/colors';
+
 
 
 const addAnotherChild=() =>{
     return (
-        <div className="all">
-            <div className="header">
-                       <img className="logoImg" src={Logo} />
-            <button className="back"> <img className="arrow" src={Arrow} />  חזרה לדף הבית </button>
+        <div className="all_addAnotherChild">
+            <div className="addAnotherChild_logo"></div>
+            <div className="label_addAnotherChild">
+            <label className="big">להרשמת ילד נוסף</label>
             </div>
-            <div className="div">
-                <div>
-                    <label className="big">להרשמת ילד נוסף</label>
-                    <div className="signup">
+            <div className="container_addAnotherChild">
+                
+                   
+                    <div className="addanothrchild_div">
                         <br />
                         <label>קוד מטפלת</label>
                         <br />
@@ -29,10 +28,13 @@ const addAnotherChild=() =>{
                         <br />
                         <input type="text" />
                     </div>
-                    <button>הוספה</button>
+                 
+                </div>
+                <div className="buttons_addAnotherChild">
+                    <button className>הוספה</button>
                 </div>
             </div>
-        </div>
+        
     )
 }
 

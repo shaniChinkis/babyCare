@@ -7,8 +7,14 @@ import "../styles/signup.css"
 const signUp=()=>{
     return(    
         <div className="allS">
+            <div className="signup_logo"></div>
+            <div className="labels">
+            <label className="signUpLabel_G">הרשמי כמטפלת</label>
+            <label className="signUpLabel_P">הרשם/י כהורה</label>
+
+            </div>
             <div className="containerS">
-            <label className="signUpG">הרשמי כמטפלת</label>
+            
             <div className="signUp">
                 <br/>
                 <label className="userNameS">שם משתמש</label>
@@ -18,11 +24,11 @@ const signUp=()=>{
                 <label className="passwordS">סיסמא</label>
                 <br/>
                 <input className="passwordInputS" type="password"/>
-                <br/>              
+                <br/>  <br/>  <br/>  <br/>  <br/>  <br/>  <br/>  <br/>  <br/>  <br/> 
+                <br/>  <br/>  <br/>  <br/>  <br/>  <br/>              
             </div>
-            <button className="signUpBtnGS">הרשמה</button>
+           
             
-            <label className="signUpP">הרשם/י כהורה</label>
             <div className="signup2">
             <br/>
 
@@ -46,7 +52,12 @@ const signUp=()=>{
                 <br/>
                 <input className="childIdInputS" type="text"/>
             </div>
-            <button className="signUpBtnPS" >הרשמה</button>
+       
+            </div>
+
+            <div className="buttons">
+                 <button className="signUpBtnPS" >הרשמה</button>
+                 <button className="signUpBtnGS">הרשמה</button>
             </div>
             </div>
 

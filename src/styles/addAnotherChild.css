@@ -1,19 +1,12 @@
-.signup{
-    
-    background-color: rgb(211, 247, 247);
-    margin: 2.5rem;
-    border-radius: 1.5rem;
-    height: 20rem;
-    width: 20rem;
+.addanothrchild_div{
+    width: 40%;
+height: 110%;
+background: #E6F8FF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 36px;
+opacity: 1;
 }
 
-.div{
-    justify-content: center;
-    align-items: center;
-     display: flex;
-    flex-direction: row;
-    height: 100%;
-}
 input{
     margin: 1rem;
     border-color: white;
@@ -33,50 +26,60 @@ button{
     color: rgb(112, 109, 109);
 }
 
-.all{
-    background-image: url("../image/backgroundYellow.png");
-    flex-direction: column;
+.all_addAnotherChild{
+    width:100%; 
+    height:100%; 
+    background: url('../image/backgroundYellow.png') top right;
+    background-attachment:fixed;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
 }
 
 .big{
-    font-size: 2rem ;
-    color: rgb(112, 109, 109);
+    text-align: left;
+    font: normal normal normal 45px/60px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
 
 }
 
-label{
-    font-size: 1rem ;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: medium;
-}
-.logoImg{
-    height: 7rem;
-    width: 7rem;
-    position: absolute;
-    left: 0;
-    margin-top: 2rem;
-    margin-left: 2rem;
-
-}
-.back{
-    height: 2rem;
-    width: 15rem;
-    font-size: 1rem ;
-    position: absolute;
-    right: 0;
-    margin-top: 2rem;
-    margin-right: 2rem;
-
-}
-.arrow{
-    height:1.5rem;
-    width: 1.5rem;
-    left:0;
-}
-
-.header {
+.label_addAnotherChild{
+    left: 50%;
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    align-items: space-between;
+    margin-top: 4%;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.addAnotherChild_logo{
+    margin-top: 1.5%;
+    margin-left: 1.5%;
+        width: 103px;
+        height: 112px;
+        background: transparent url('../image/logo.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+
+}
+
+.container_addAnotherChild{
+    left: 50%;
+    display: flex;
+    margin-top: 3%;
+    justify-content: space-between;
+    margin-left: 35%;
+}
+
+.buttons_addAnotherChild{
+    
+}
+
+.label_addAnotherChild{
+    left: 50%;
+    display: flex;
+    margin-top: 4%;
+    justify-content: space-between;
+    margin-right: 25%;
+    margin-left: 25%;
 }
