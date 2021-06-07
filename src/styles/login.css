@@ -51,11 +51,16 @@ opacity: 1;
     opacity: 1;
 }
 .inputEmailL{
-    top: 430px;
+    /* top: 430px;
     left: 433px;
     width: 324px;
-    height: 39px;
+    height: 39px; */
 /* UI Properties */
+margin: 4.6%;
+    border-color: white;
+    border-radius: 7%;
+    height: 13%;
+    width: 65%;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 20px;
     opacity: 1;
@@ -75,10 +80,15 @@ opacity: 1;
 
 
 .inputPasswordL{
-    top: 535px;
+    /* top: 535px;
     left: 433px;
     width: 324px;
-    height: 39px;
+    height: 39px; */
+    margin: 4.6%;
+    border-color: white;
+    border-radius: 7%;
+    height: 13%;
+    width: 65%;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 20px;
     opacity: 1;   
@@ -90,6 +100,7 @@ opacity: 1;
 left: 361px;
 width: 467px;
 height: 80px;
+
 background: #FFE6F3 0% 0% no-repeat padding-box;
 box-shadow: 0px 3px 6px #00000029;
 border-radius: 23px;
@@ -132,10 +143,15 @@ opacity: 1;
 }
 
 .emailInputL{
-    top: 430px;
+    /* top: 430px;
 left: 1088px;
 width: 324px;
-height: 39px;
+height: 39px; */
+margin: 4.6%;
+    border-color: white;
+    border-radius: 7%;
+    height: 13%;
+    width: 65%;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border-radius: 20px;
 opacity: 1;
@@ -154,10 +170,15 @@ opacity: 1;
 }
 
 .inputPasswordL{
-    top: 535px;
+    /* top: 535px;
 left: 1088px;
 width: 324px;
-height: 39px;
+height: 39px; */
+margin: 4.6%;
+    border-color: white;
+    border-radius: 7%;
+    height: 13%;
+    width: 65%;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border-radius: 20px;
 opacity: 1;

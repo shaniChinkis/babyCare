@@ -14,6 +14,9 @@ const governessHomepage=()=>{
             <div className="bg2"></div>
             <br/>
             <div className="bg3"></div>
+                <button className="gHpBtn1">להצגת הקטגוריות</button>
+                <button className="gHpBtn2">לצפיה בלוח חופשות</button>
+                <button className="gHpBtn3">להצגת רשימת הילדים</button>
         </div>
     )
 }

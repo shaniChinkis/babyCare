@@ -37,7 +37,7 @@ opacity: 1;
 .labels{
     left: 50%;
     display: flex;
-    margin-top: 2%;
+    margin-top: 0%;
     justify-content: space-between;
     margin-right: 25%;
     margin-left: 25%;
@@ -57,10 +57,11 @@ opacity: 1;
 }
 
 .userNameInputS{
-    top: 294px;
-left: 433px;
-width: 324px;
-height: 39px;
+    margin: 4.6%;
+    border-color: white;
+    border-radius: 7%;
+    height: 4vh;
+    width: 20vw;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border-radius: 20px;
 opacity: 1;
@@ -79,10 +80,11 @@ opacity: 1;
 }
 
 .passwordInputS{
-    top: 399px;
-left: 433px;
-width: 324px;
-height: 39px;
+    margin: 4.6%;
+    border-color: white;
+    border-radius: 7%;
+    height: 4vh;
+    width: 20vw;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border-radius: 20px;
 opacity: 1;
@@ -102,8 +104,8 @@ opacity: 1;
 
 
 .signup2{
-    width: 40%;
-height: 110%;
+    width: 50vh;
+    height:32vw;
 background: #E6F8FF 0% 0% no-repeat padding-box;
 box-shadow: 0px 3px 6px #00000029;
 border-radius: 36px;
@@ -112,8 +114,8 @@ opacity: 1;
 }
 .signUp{
 
-    width: 40%;
-   height: 300%;
+    width: 50vh;
+   height:32vw;
    background: #E6F8FF 0% 0% no-repeat padding-box;
    box-shadow: 0px 3px 6px #00000029;
    border-radius: 36px;
@@ -133,10 +135,11 @@ opacity: 1;
 }
 
 .userNameInputPS{
-    top: 294px;
-left: 1088px;
-width: 324px;
-height: 39px;
+    margin: 4.6%;
+    border-color: white;
+    border-radius: 7%;
+    height: 4vh;
+    width: 20vw;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border-radius: 20px;
 opacity: 1;
@@ -154,11 +157,12 @@ color: #707070;
 opacity: 1;
 }
 
-.passwordInputPS{
-    top: 399px;
-left: 1088px;
-width: 324px;
-height: 39px;
+.passwordInputPS {
+    margin: 4.6%;
+    border-color: white;
+    border-radius: 7%;
+    height: 4vh;
+    width: 20vw;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border-radius: 20px;
 opacity: 1;
@@ -177,10 +181,11 @@ opacity: 1;
 }
 
 .govCodeInputS{
-    top: 498px;
-left: 1088px;
-width: 324px;
-height: 39px;
+    margin: 4.6%;
+    border-color: white;
+    border-radius: 7%;
+    height: 4vh;
+    width: 20vw;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border-radius: 20px;
 opacity: 1;
@@ -199,13 +204,14 @@ opacity: 1;
 }
 
 .childNameInputS{
-    top: 596px;
-    left: 1088px;
-    width: 324px;
-    height: 39px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border-radius: 20px;
-    opacity: 1;
+    margin: 4.6%;
+    border-color: white;
+    border-radius: 7%;
+    height: 4vh;
+    width: 20vw;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 20px;
+opacity: 1;
 }
 
 .childIdS{
@@ -221,10 +227,11 @@ opacity: 1;
 }
 
 .childIdInputS{
-    top: 695px;
-left: 1088px;
-width: 324px;
-height: 39px;
+    margin: 4.6%;
+    border-color: white;
+    border-radius: 7%;
+    height: 4vh;
+    width: 20vw;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border-radius: 20px;
 opacity: 1;
