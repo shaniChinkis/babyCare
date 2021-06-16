@@ -1,17 +1,31 @@
 import React, { useState } from 'react';
 
-import loginAPI from '../api/userApi'
+import loginApi from '../api/loginApi'
 import "../styles/login.css"
-
+import {useHistory} from 'react-router-dom'
 
 const Login = () => {
-    const { userName, setUserName } = useState("");
-    const { password, setPassword } = useState("");
-    const onlogin = () => {
-        loginAPI(userName, password).then((res) => {
-            return res.token();
-        })
+    const history=new useHistory();
+
+    const [ userName, setUserName ] = useState("");
+    const [password, setPassword ]  = useState("");
+
+    const onlogin = async() => {
+debugger;
+       let res = await loginApi(userName, password);
+            if( res && res.kind=='governess' ){
+                history.replace("/governessHomepage")
+            }
+           else if( res && res.kind=='parents' ){
+                history.replace( "/parentsHomepage")
+            }
+            else {
+                alert("User not found please sign up.")
+            }
+        
     }
+
+
 
     return (
         <div className="allL">
@@ -34,26 +48,23 @@ const Login = () => {
                         <br />
                     </div>
                    
-                
-                
-
                     <div className="loginDivP">
                         <br />
 
                         <label className="emailPL">אימייל</label>
                         <br />
-                        <input className="emailInputL" type="email" />
+                        <input className="emailInputL" type="email" onChange={(e) => setUserName(e.target.value)} />
                         <br />
                         <label className="passwordPL">סיסמא</label>
                         <br />
-                        <input className="inputPasswordL" type="password" />
+                        <input className="inputPasswordL" type="password" onChange={(e) => setPassword(e.target.value)}/>
                         <br />
                     </div>
                     
                 </div>
                 <div className= "buttonsL">
                 <button className="loginBtn" onClick={onlogin}>התחברות</button>
-                <button className="loginBtnP">התחברות</button>
+                <button className="loginBtnP" onClick={onlogin}>התחברות</button>
                 </div>
             </div>
 
