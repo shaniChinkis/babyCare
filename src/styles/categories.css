@@ -1,0 +1,57 @@
+.ca_all{
+    margin-top: 1.5%;
+    margin-left: 1.5%;
+        width: 103px;
+        height: 112px;
+        background: transparent url('../image/logo.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        /* background: #cee2f5; */
+}
+
+.activityImg{
+    width: 50%;
+    height: 70%;
+  background: transparent url('../image/activity.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-left: 25%;
+  margin-right: 25%;
+  position: absolute;
+  
+}
+
+
+.developmentImg{
+    width: 50%;
+    height: 70%;
+  background: transparent url('../image/deverlopment.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-left: 25%;
+  margin-right: 25%;
+  position: absolute;
+  
+}
+
+
+.sleepImg{
+    width: 50%;
+    height: 70%;
+  background: transparent url('../image/sleep.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-left: 25%;
+  margin-right: 25%;
+  position: absolute;
+  
+}
+
+
+.foodImg{
+    width: 50%;
+    height: 70%;
+  background: transparent url('../image/eat.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-left: 25%;
+  margin-right: 25%;
+  position: absolute;
+  
+}
+

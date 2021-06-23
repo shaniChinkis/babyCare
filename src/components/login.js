@@ -11,7 +11,6 @@ const Login = () => {
     const [password, setPassword ]  = useState("");
 
     const onlogin = async() => {
-debugger;
        let res = await loginApi(userName, password);
             if( res && res.kind=='governess' ){
                 history.replace("/governessHomepage")

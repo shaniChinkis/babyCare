@@ -5,6 +5,9 @@ import Login from './components/login'
 import GovernessHomepage from './components/governessHomepage'
 import ParentsHomepage from './components/parentsHomepage'
 import AddAnotherChild from './components/addAnotherChild'
+import Categories from './components/categories'
+import ChildrenList from './components/childrenList'
+import Child from './components/child'
 import {Switch, Route, BrowserRouter as Router } from "react-router-dom"
 
 export default function App() {
@@ -23,6 +26,15 @@ export default function App() {
           </Route>
           <Route path="/addAnotherChild">
           <AddAnotherChild/>
+          </Route>
+          <Route path="/categories">
+          <Categories/>
+          </Route>
+          <Route path="/childrenList">
+          <ChildrenList/>
+          </Route>
+          <Route path="/child">
+          <Child/>
           </Route>
           <Route path="/">
           <Login/> 

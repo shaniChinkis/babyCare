@@ -1,0 +1,29 @@
+.childimage{
+    margin-top: 1.5%;
+    margin-left: 1.5%;
+        width: 10vw;
+        height: 20vh;
+        background: transparent url('../image/baby.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        border: 0px ;
+        border-radius: 5rem;
+        /* border: solid 1px black; */
+
+}
+
+.lchildimage{
+    border-radius: 3rem;
+    background:white;
+    width: 8vw;
+    height: 4vh;
+   
+    position: absolute;
+}
+
+.allBaby{
+    /* border: solid 17px black; */
+    width: 10vw;
+    height: 30vh;
+    position: absolute;
+
+}
