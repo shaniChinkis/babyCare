@@ -1,20 +1,32 @@
 .ca_all{
-    margin-top: 1.5%;
-    margin-left: 1.5%;
-        width: 103px;
-        height: 112px;
-        background: transparent url('../image/logo.png') 0% 0% no-repeat padding-box;
-        opacity: 1;
-        /* background: #cee2f5; */
+  width:100%; 
+  height:100%; 
+  background: #E6F8FF 0% 0% no-repeat padding-box;
+  background-attachment:fixed;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+
+
 }
 
+.category_logo{
+  margin-top: 1.5%;
+  margin-left: 1.5%;
+      width: 103px;
+      height: 112px;
+      background: transparent url('../image/logo.png') 0% 0% no-repeat padding-box;
+      opacity: 1;
+      position: absolute;
+
+}
 .activityImg{
     width: 50%;
     height: 70%;
   background: transparent url('../image/activity.png') 0% 0% no-repeat padding-box;
   opacity: 1;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 20%;
+margin-top: 5%;
   position: absolute;
   
 }
@@ -24,34 +36,91 @@
     width: 50%;
     height: 70%;
   background: transparent url('../image/deverlopment.png') 0% 0% no-repeat padding-box;
-  opacity: 1;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 40%;
+  margin-top: 5%;
   position: absolute;
+    opacity: 1
   
 }
 
 
 .sleepImg{
-    width: 50%;
-    height: 70%;
   background: transparent url('../image/sleep.png') 0% 0% no-repeat padding-box;
-  opacity: 1;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 60%;
+  margin-top: 5%;
   position: absolute;
-  
+    width: 50%;
+  height: 70%;
+  opacity: 1
 }
 
 
 .foodImg{
-    width: 50%;
-    height: 70%;
-  background: transparent url('../image/eat.png') 0% 0% no-repeat padding-box;
-  opacity: 1;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-top: 5%;
   position: absolute;
-  
+    background: transparent url('../image/eat.png') 0% 0% no-repeat padding-box;
+  margin-left: 80%;
+  width: 50%;
+  height: 70%;
+  opacity: 1
+}
+
+.caBtn1{
+  margin-left: 30%;
+  /* margin-right: 20%; */
+margin-top: 19%;
+background: #E6F8FF 0% 0% no-repeat padding-box;
+box-shadow: 2px 3px 6px #0000004F;
+border-radius: 3.5rem;
+opacity: 1;
+width: 9vw;
+font-size: medium;
+position: absolute;
+
+}
+
+.caBtn2{
+  position: absolute;
+
+  margin-left: 11%;
+  /* margin-right: 15%; */
+margin-top: 19%;
+background: #E6F8FF 0% 0% no-repeat padding-box;
+box-shadow: 2px 3px 6px #0000004F;
+border-radius: 3.5rem;
+opacity: 1;
+width: 9vw;
+font-size: medium;
+}
+
+.caBtn3{
+  position: absolute;
+  left: 620px;
+
+  /* margin-left: 0%; */
+  /* margin-right: 20%; */
+margin-top: 19%;
+background: #E6F8FF 0% 0% no-repeat padding-box;
+box-shadow: 2px 3px 6px #0000004F;
+border-radius: 3.5rem;
+opacity: 1;
+width: 9vw;
+font-size: medium;
+
+}
+
+.caBtn4{
+  position: absolute;
+/* 
+  margin-left: 0%;
+  margin-right: 80%; */
+  left: 310px;
+margin-top:16%;
+background: #E6F8FF 0% 0% no-repeat padding-box;
+box-shadow: 2px 3px 6px #0000004F;
+border-radius: 3.5rem;
+opacity: 1;
+width: 9vw;
+font-size: medium;
 }
 

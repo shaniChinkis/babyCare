@@ -5,7 +5,7 @@ import "../styles/governessHomepage.css"
     import {useHistory} from 'react-router-dom'
 
 
-const governessHomepage=()=>{
+const GovernessHomepage=()=>{
     const history=new useHistory();
 
     const onclickButton = (typeOfButton) => {
@@ -36,4 +36,4 @@ const governessHomepage=()=>{
         </div>
     )
 }
-export default governessHomepage;
+export default GovernessHomepage;

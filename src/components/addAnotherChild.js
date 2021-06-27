@@ -4,7 +4,7 @@ import "../styles/addAnotherChild.css"
 
 
 
-const addAnotherChild=() =>{
+const AddAnotherChild=() =>{
     return (
         <div className="all_addAnotherChild">
             <div className="addAnotherChild_logo"></div>
@@ -38,4 +38,4 @@ const addAnotherChild=() =>{
     )
 }
 
-export default addAnotherChild;
+export default AddAnotherChild;

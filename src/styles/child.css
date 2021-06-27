@@ -8,7 +8,7 @@
         border: 0px ;
         border-radius: 5rem;
         /* border: solid 1px black; */
-
+   
 }
 
 .lchildimage{
@@ -25,5 +25,6 @@
     width: 10vw;
     height: 30vh;
     position: absolute;
-
+/* margin-top: 20%; */
 }
+

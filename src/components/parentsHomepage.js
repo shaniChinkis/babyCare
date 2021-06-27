@@ -1,27 +1,40 @@
 import React from 'react'
-import Button from '@material-ui/core/Button';
-import ButtonGroup from '@material-ui/core/ButtonGroup';
 import "../styles/parentsHomepage.css"
+    import {useHistory} from 'react-router-dom'
 
 
-const parentsHomepage=()=>{
+const ParentsHomepage=()=>{
+    const history=new useHistory();
+
+    const onclickButtonP = (typeOfButton) => {
+     
+            if( typeOfButton=="showCategories" ){
+                history.replace("/categories")
+            }
+            if( typeOfButton=="showChildrenList" ){
+                history.replace("/childrenList")
+            }
+            else {
+                alert("User not found please sign up.")
+            }
+        
+    }
     return(
-        <div>
-                <h1>ParentsHomepage</h1>
-        <ButtonGroup variant="contained" color="primary" aria-label="contained primary button group">
-            <Button>צפיה בפעילות הילד</Button>
-            <Button>שליחת הודעה למטפלת</Button>
-            <Button>פידבק למטפלת</Button>
-            <Button>צפיה בלוח חופשות וארועים</Button>
-        </ButtonGroup>
-        <br/>
-        <br/>
-        <div>
-        <Button variant="contained" size="medium" color="primary" >
-          הרשמת ילד נוסף➕
-        </Button>
+        <div className="p_all">
+            <div className="parentsHomepage_logo"></div>
+            <div className="patentsmobileImg" ></div>
+            <div className="bp1"></div>
+            <br/>
+            <div className="bp2"></div>
+            <br/>
+            <div className="bp3"></div>
+            <br/>
+            <div className="bp4"></div>
+                <button className="pHpBtn1" onClick={()=>onclickButtonP("showCategories")}>לצפיה בלוח חופשות</button>
+                <button className="pHpBtn2" onClick={()=>onclickButtonP("showCategories")}>פידבק למטפלת</button>
+                <button className="pHpBtn3" onClick={()=>onclickButtonP("showVacation")}>שליחת הודעה למטפלת</button>
+                <button className="pHpBtn4" onClick={()=>onclickButtonP("showChildrenList")}>לצפיה בפעילות הילד</button>
         </div>
-    </div>
     )
 }
-export default parentsHomepage;
+export default ParentsHomepage;

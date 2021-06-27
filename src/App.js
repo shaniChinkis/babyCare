@@ -15,25 +15,25 @@ export default function App() {
     <Router>
     <div className="App">
       <Switch>
-          <Route path="/signUp">
+          <Route path="/SignUp">
           <SignUp/>
           </Route>
-          <Route path="/governessHomepage">
+          <Route path="/GovernessHomepage">
           <GovernessHomepage/>
           </Route>
-          <Route path="/parentsHomepage">
+          <Route path="/ParentsHomepage">
           <ParentsHomepage/>
           </Route>
-          <Route path="/addAnotherChild">
+          <Route path="/AddAnotherChild">
           <AddAnotherChild/>
           </Route>
-          <Route path="/categories">
+          <Route path="/Categories">
           <Categories/>
           </Route>
-          <Route path="/childrenList">
+          <Route path="/ChildrenList">
           <ChildrenList/>
           </Route>
-          <Route path="/child">
+          <Route path="/Child">
           <Child/>
           </Route>
           <Route path="/">
