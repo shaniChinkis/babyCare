@@ -35,8 +35,8 @@ flex-direction: row;
     width: 8%;
     height: 16%;
     border: solid 17px black;
-    margin-top: 32%;
-    margin-left: 26.5%;
+    margin-top: 35%;
+    margin-left: 24%;
     position: absolute;
 
 }
@@ -47,8 +47,8 @@ flex-direction: row;
     width: 8%;
     height: 16%;
     border: solid 17px black;
-    margin-top: 32%;
-    margin-left: 26.5%;
+    margin-top: 30%;
+    margin-left: 36.5%;
     position: absolute;
 
 }
@@ -59,8 +59,8 @@ flex-direction: row;
     width: 8%;
     height: 16%;
     border: solid 17px black;
-    margin-top: 32%;
-    margin-left: 26.5%;
+    margin-top: 35%;
+    margin-left:48%;
     position: absolute;
 
 }
@@ -71,8 +71,8 @@ flex-direction: row;
     width: 8%;
     height: 16%;
     border: solid 17px black;
-    margin-top: 32%;
-    margin-left: 26.5%;
+    margin-top: 30%;
+    margin-left: 62%;
     position: absolute;
 
 }
@@ -84,8 +84,8 @@ flex-direction: row;
     border-radius: 15rem;
     width: 7%;
     height: 14%;
-    margin-top: 33.3%;
-    margin-left: 28%;
+    margin-top:36.5%;
+    margin-left: 25.5%;
     position: absolute;
 
 }
@@ -97,8 +97,8 @@ flex-direction: row;
     border-radius: 15rem;
     width: 7%;
     height: 14%;
-    margin-top: 33.3%;
-    margin-left: 28%;
+    margin-top: 31.5%;
+    margin-left: 38%;
     position: absolute;
 
 }
@@ -110,8 +110,8 @@ flex-direction: row;
     border-radius: 15rem;
     width: 7%;
     height: 14%;
-    margin-top: 33.3%;
-    margin-left: 28%;
+    margin-top:36.5%;
+    margin-left: 49.5%;
     position: absolute;
 
 }
@@ -123,8 +123,58 @@ flex-direction: row;
     border-radius: 15rem;
     width: 7%;
     height: 14%;
-    margin-top: 33.3%;
-    margin-left: 28%;
+    margin-top: 31%;
+    margin-left: 63.5%;
     position: absolute;
+
+}
+
+.addNewChildren{
+    border-radius: 15rem;
+    background: #E6F8FF 0% 0% no-repeat padding-box;
+    width: 12vw;
+    height:4vh;
+    border: solid 0px white;
+    margin-top: 45%;
+    margin-left: 4%;
+    position: absolute;
+    font-size: 1.2rem;
+    
+
+}
+.backToHome{
+    /* background: transparent url('../image/arrow.png') 0% 0% no-repeat padding-box; */
+    border-radius: 15rem;
+    background: #ffe6f3 0% 0% no-repeat padding-box;
+    width: 12vw;
+    height:4vh;
+    border: solid 0px white;
+    margin-top: 2%;
+    margin-left:85% ;   
+    position: absolute;
+    font-size: 1.2rem;
+    text-align: center;
+    display: inline-block;
+    float: left;
+
+
+}
+
+.pforback{
+    position: absolute;
+    background: transparent url('../image/arrow.png') 0% 0% no-repeat padding-box;
+    width:2vw;
+    height:4vh;
+    border: solid 0px #ffe6f3;
+    display: inline;
+}
+
+.new{
+    /* flexDirection: 'row';
+    justifyContent:'center'; */
+    /* display: inline-block; */
+    /* flex: 1;
+    position: absolute; */
+
 
 }

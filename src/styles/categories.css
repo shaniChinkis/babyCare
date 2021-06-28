@@ -68,12 +68,12 @@ margin-top: 5%;
 .caBtn1{
   margin-left: 30%;
   /* margin-right: 20%; */
-margin-top: 19%;
+margin-top: 15%;
 background: #E6F8FF 0% 0% no-repeat padding-box;
 box-shadow: 2px 3px 6px #0000004F;
 border-radius: 3.5rem;
 opacity: 1;
-width: 9vw;
+width: 7vw;
 font-size: medium;
 position: absolute;
 
@@ -84,12 +84,12 @@ position: absolute;
 
   margin-left: 11%;
   /* margin-right: 15%; */
-margin-top: 19%;
+margin-top: 15%;
 background: #E6F8FF 0% 0% no-repeat padding-box;
 box-shadow: 2px 3px 6px #0000004F;
 border-radius: 3.5rem;
 opacity: 1;
-width: 9vw;
+width: 7vw;
 font-size: medium;
 }
 
@@ -97,30 +97,30 @@ font-size: medium;
   position: absolute;
   left: 620px;
 
-  /* margin-left: 0%; */
+  margin-left: 8%;
   /* margin-right: 20%; */
-margin-top: 19%;
+margin-top: 15%;
 background: #E6F8FF 0% 0% no-repeat padding-box;
 box-shadow: 2px 3px 6px #0000004F;
 border-radius: 3.5rem;
 opacity: 1;
-width: 9vw;
+width: 7vw;
 font-size: medium;
 
 }
 
 .caBtn4{
-  position: absolute;
-/* 
-  margin-left: 0%;
-  margin-right: 80%; */
-  left: 310px;
-margin-top:16%;
+  /* position: absolute; */
+
+  /* margin-left: 0%; */
+  margin-right:53%;
+  /* left: 310px; */
+margin-top:13%;
 background: #E6F8FF 0% 0% no-repeat padding-box;
 box-shadow: 2px 3px 6px #0000004F;
 border-radius: 3.5rem;
 opacity: 1;
-width: 9vw;
+width:7vw;
 font-size: medium;
 }
 

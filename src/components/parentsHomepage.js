@@ -30,10 +30,14 @@ const ParentsHomepage=()=>{
             <div className="bp3"></div>
             <br/>
             <div className="bp4"></div>
-                <button className="pHpBtn1" onClick={()=>onclickButtonP("showCategories")}>לצפיה בלוח חופשות</button>
-                <button className="pHpBtn2" onClick={()=>onclickButtonP("showCategories")}>פידבק למטפלת</button>
-                <button className="pHpBtn3" onClick={()=>onclickButtonP("showVacation")}>שליחת הודעה למטפלת</button>
-                <button className="pHpBtn4" onClick={()=>onclickButtonP("showChildrenList")}>לצפיה בפעילות הילד</button>
+            <button className="pHpBtn1" onClick={()=>onclickButtonP("showCategories")}>לצפיה בלוח חופשות</button>
+            <button className="pHpBtn2" onClick={()=>onclickButtonP("showCategories")}>פידבק למטפלת</button>
+            <button className="pHpBtn3" onClick={()=>onclickButtonP("showVacation")}>שליחת הודעה למטפלת</button>
+            <button className="pHpBtn4" onClick={()=>onclickButtonP("showChildrenList")}>לצפיה בפעילות הילד</button>
+            <div className="new"></div>
+            <button className="addNewChildren">➕ להרשמת ילד נוסף</button>
+            <button className="backToHome"><img className="pforback"/>חזרה לדף הבית</button>
+
         </div>
     )
 }
