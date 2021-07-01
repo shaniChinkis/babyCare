@@ -76,14 +76,12 @@ opacity: 1;
 width: 7vw;
 font-size: medium;
 position: absolute;
-
+border-color: #E6F8FF ;
 }
 
 .caBtn2{
   position: absolute;
-
-  margin-left: 11%;
-  /* margin-right: 15%; */
+ margin-left: 11%;
 margin-top: 15%;
 background: #E6F8FF 0% 0% no-repeat padding-box;
 box-shadow: 2px 3px 6px #0000004F;
@@ -91,30 +89,27 @@ border-radius: 3.5rem;
 opacity: 1;
 width: 7vw;
 font-size: medium;
+border-color: #E6F8FF ;
+
 }
 
 .caBtn3{
-  position: absolute;
-  left: 620px;
-
-  margin-left: 8%;
-  /* margin-right: 20%; */
+position: absolute;
 margin-top: 15%;
+/* margin-right: 10%; */
+left: 40.5%;
 background: #E6F8FF 0% 0% no-repeat padding-box;
 box-shadow: 2px 3px 6px #0000004F;
 border-radius: 3.5rem;
 opacity: 1;
 width: 7vw;
 font-size: medium;
+border-color: #E6F8FF ;
 
 }
 
 .caBtn4{
-  /* position: absolute; */
-
-  /* margin-left: 0%; */
   margin-right:53%;
-  /* left: 310px; */
 margin-top:13%;
 background: #E6F8FF 0% 0% no-repeat padding-box;
 box-shadow: 2px 3px 6px #0000004F;
@@ -122,5 +117,7 @@ border-radius: 3.5rem;
 opacity: 1;
 width:7vw;
 font-size: medium;
+border-color: #E6F8FF ;
+
 }
 

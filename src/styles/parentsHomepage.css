@@ -154,27 +154,18 @@ flex-direction: row;
     position: absolute;
     font-size: 1.2rem;
     text-align: center;
-    display: inline-block;
     float: left;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .pforback{
-    position: absolute;
     background: transparent url('../image/arrow.png') 0% 0% no-repeat padding-box;
     width:2vw;
     height:4vh;
-    border: solid 0px #ffe6f3;
+    border: solid 0px #ffe6f3 !important;
     display: inline;
-}
-
-.new{
-    /* flexDirection: 'row';
-    justifyContent:'center'; */
-    /* display: inline-block; */
-    /* flex: 1;
-    position: absolute; */
-
-
+    margin-right: 0.5rem;
 }

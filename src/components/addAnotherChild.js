@@ -11,9 +11,7 @@ const AddAnotherChild=() =>{
             <div className="label_addAnotherChild">
             <label className="labelbig">להרשמת ילד נוסף</label>
             </div>
-            <div className="container_addAnotherChild">
-                
-                   
+            <div className="container_addAnotherChild">  
                     <div className="addanothrchild_div">
                         <br />
                         <label className="governessCode">קוד מטפלת</label>
@@ -28,13 +26,11 @@ const AddAnotherChild=() =>{
                         <br />
                         <input className="inputIdAdd" type="text" />
                     </div>
-                 
                 </div>
                 <div className="buttons_addAnotherChild">
                     <button className="addChildAdd">הוספה</button>
                 </div>
             </div>
-        
     )
 }
 

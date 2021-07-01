@@ -5,109 +5,102 @@
     background-attachment:fixed;
     background-size: cover;
     overflow: hidden;
-    /* position: relative; */
-}
-.tableCF{
-    
+     position: relative; 
+     font-size: 200%;
+    font-weight:600;
 }
 
-.firstRowCF{
-    margin-top: 7%;
-    margin-bottom: 2%;
-}
-.categoryLabelCF{
+
+/* .categoryLabelCF{
     background: #FFE6F3 0% 0% no-repeat padding-box;
     border-radius: 10px;
-    margin: 0.2%;
-    padding-right: 2%;
-    padding-left: 2%;
-    padding-top: 1%;
-    padding-bottom: 1%;
     font-size: 200%;
     font-weight:600;
     font-family: Segoe UI;
     color: #474747;
+    width: 30%;
+    padding: 5%;
+
 
 }
 
 .detailsLabelCF{
     background: #FFE6F3 0% 0% no-repeat padding-box;
     border-radius: 10px;
-    margin: 0.2%;
-    padding-right: 3%;
-    padding-left: 3%;
-    padding-top: 1%;
-    padding-bottom: 1%;
     font-size: 200%;
     font-weight:600;
     font-family: Segoe UI;
     color: #474747;
 
-
+   
 }
 .timeLabelCF{
     background: #FFE6F3 0% 0% no-repeat padding-box;
     border-radius: 10px;
-    margin: 0.2%;
-    padding-right: 3.5%;
-    padding-left: 3.5%;
-    padding-top: 1%;
-    padding-bottom: 1%;
     font-size: 200%;
     font-weight:600;
     font-family: Segoe UI;
     color: #474747;
 
 
-}
-.foodCF{
+} */
+
+ .row2input1{
     background: #FFFCE6 0% 0% no-repeat padding-box;
     border-radius: 10px;
-    margin-left: 0.2%;
-    margin-right: 0.2%;
-    padding-right: 3.5%;
-    padding-left: 3.5%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    font-size: 200%;
-    font-weight:600;
-    font-family: Segoe UI;
-    color: #474747;
-}
-.secondRowCF{
-    margin-top: 4%;
-}
-.row2input1{
-    background: #FFFCE6 0% 0% no-repeat padding-box;
-    border-radius: 10px;
-    margin-left: 0.2%;
-    margin-right: 0.2%;
-    padding-right:1.2%;
-    padding-left: 1.2%;
-    padding-top: 1.5%;
-    padding-bottom: 2%;
     font-size: 70%;
     font-weight:600;
     font-family: Segoe UI;
     color: #474747;
     border-width: 0px;
-    
+    height: 100%;
+    width: 100%;
 }
 
 .row2input2{
-    background: #FFFCE6 0% 0% no-repeat padding-box;
+    background: #E6F8FF  0% 0% no-repeat padding-box;
     border-radius: 10px;
-    margin-top: 0%;
-    margin-left: 0.2%;
-    margin-right: 0.2%;
-    padding-right:1.2%;
-    padding-left: 1.2%;
-    padding-top: 1.5%;
-    padding-bottom: 2%;
     font-size: 70%;
     font-weight:600;
     font-family: Segoe UI;
     color: #474747;
     border-width: 0px;
+    height: 100%;
+    width: 100%;
 }
+
+.ColumnHeader{
+    background: #FFE6F3 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    font-size: 200% !important;
+    font-weight:600 !important;
+    font-family: Segoe UI;
+    color: #474747;
+    border-width: 10px !important;
+    
+}
+ .allTable{
+   margin-top: 7%;
+   margin-left: 20%;
+   margin-right: 10%;
+   width: 60% !important;
+ }
+
+ .MuiTableCell-root {
+border-bottom: 0px !important; 
+height: 7.5vh ;
+border-radius: 10px;
+}
+
+
+.MuiTableCell-head{
+    font-size: 2.5rem !important;
+    font-family: Segoe UI !important;
+    color: #474747 !important;
+    background: #FFE6F3 0% 0% no-repeat padding-box !important;
+
+}
+
+
+
 
