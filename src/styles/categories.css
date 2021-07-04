@@ -11,113 +11,128 @@
 }
 
 .category_logo{
-  margin-top: 1.5%;
-  margin-left: 1.5%;
+       top: 1.5%;
+       left: 1.5%;
       width: 103px;
-      height: 112px;
+      height: 20vh;
       background: transparent url('../image/logo.png') 0% 0% no-repeat padding-box;
       opacity: 1;
       position: absolute;
 
 }
 .activityImg{
-    width: 50%;
-    height: 70%;
+    width: 22%;
+    height: 24vh;
   background: transparent url('../image/activity.png') 0% 0% no-repeat padding-box;
+  background-size: contain;
   opacity: 1;
-  margin-left: 20%;
-margin-top: 5%;
+  left: 20%;
+top: 7vh;
   position: absolute;
   
 }
 
 
 .developmentImg{
-    width: 50%;
-    height: 70%;
+  width: 22%;
+  height: 24vh;
+    background-size: contain;
   background: transparent url('../image/deverlopment.png') 0% 0% no-repeat padding-box;
-  margin-left: 40%;
-  margin-top: 5%;
+  left: 40%;
+  top: 7vh;
   position: absolute;
-    opacity: 1
-  
+    opacity: 1;
+    /* background-size :cover; */
 }
 
 
 .sleepImg{
   background: transparent url('../image/sleep.png') 0% 0% no-repeat padding-box;
-  margin-left: 60%;
-  margin-top: 5%;
+  left: 60%;
+  top: 7vh;
   position: absolute;
-    width: 50%;
-  height: 70%;
+  width: 22%;
+  height: 24vh;
+    background-size: contain;
   opacity: 1
 }
 
 
 .foodImg{
-  margin-top: 5%;
+  top: 7vh;
   position: absolute;
     background: transparent url('../image/eat.png') 0% 0% no-repeat padding-box;
-  margin-left: 80%;
-  width: 50%;
-  height: 70%;
+ left: 80%;
+ width: 22%;
+ height: 24vh;
+   background-size: contain;
   opacity: 1
 }
 
 .caBtn1{
-  margin-left: 30%;
+ right: 12%;
   /* margin-right: 20%; */
-margin-top: 15%;
-background: #E6F8FF 0% 0% no-repeat padding-box;
+bottom: 58vh;
+  background: #E6F8FF 0% 0% no-repeat padding-box;
 box-shadow: 2px 3px 6px #0000004F;
 border-radius: 3.5rem;
 opacity: 1;
-width: 7vw;
+width: 7%;
 font-size: medium;
 position: absolute;
 border-color: #E6F8FF ;
+ height: 3.5rem;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(112, 109, 109);
 }
 
 .caBtn2{
-  position: absolute;
- margin-left: 11%;
-margin-top: 15%;
-background: #E6F8FF 0% 0% no-repeat padding-box;
+  right: 31%;
+  /* margin-right: 20%; */
+bottom: 58vh;
+  background: #E6F8FF 0% 0% no-repeat padding-box;
 box-shadow: 2px 3px 6px #0000004F;
 border-radius: 3.5rem;
 opacity: 1;
-width: 7vw;
+width: 7%;
 font-size: medium;
+position: absolute;
 border-color: #E6F8FF ;
-
+height: 3.5rem;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(112, 109, 109);
 }
 
 .caBtn3{
-position: absolute;
-margin-top: 15%;
-/* margin-right: 10%; */
-left: 40.5%;
-background: #E6F8FF 0% 0% no-repeat padding-box;
+  left: 41%;
+bottom: 58vh;
+  background: #E6F8FF 0% 0% no-repeat padding-box;
 box-shadow: 2px 3px 6px #0000004F;
 border-radius: 3.5rem;
 opacity: 1;
-width: 7vw;
+width: 7%;
 font-size: medium;
+position: absolute;
 border-color: #E6F8FF ;
-
+height: 3.5rem;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(112, 109, 109);
 }
 
 .caBtn4{
-  margin-right:53%;
-margin-top:13%;
-background: #E6F8FF 0% 0% no-repeat padding-box;
+  left: 21%;
+  /* margin-right: 20%; */
+bottom: 58vh;
+  background: #E6F8FF 0% 0% no-repeat padding-box;
 box-shadow: 2px 3px 6px #0000004F;
 border-radius: 3.5rem;
 opacity: 1;
-width:7vw;
+width: 7%;
 font-size: medium;
+position: absolute;
 border-color: #E6F8FF ;
-
+height: 3.5rem;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(112, 109, 109);
 }
 

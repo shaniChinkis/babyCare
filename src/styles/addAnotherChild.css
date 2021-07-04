@@ -1,14 +1,15 @@
 .addanothrchild_div{
-    width: 40%;
-height: 110%;
+    width: 30%;
+    height:43vh;
 background: #E6F8FF 0% 0% no-repeat padding-box;
 box-shadow: 0px 3px 6px #00000029;
 border-radius: 36px;
 opacity: 1;
+position: absolute;
 }
 
 
-button{
+/* button{
     height: 3.5rem;
     width: 20rem;
     background-color: rgb(245, 219, 241);
@@ -17,7 +18,7 @@ button{
     font-size: 2rem ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(112, 109, 109);
-}
+} */
 
 .all_addAnotherChild{
     width:100%; 
@@ -26,7 +27,7 @@ button{
     background-attachment:fixed;
     background-size: cover;
     overflow: hidden;
-    position: relative;
+    position: absolute;
 }
 
 .big{
@@ -65,17 +66,19 @@ button{
 }
 .governessCode{
     text-align: left;
-    font: normal normal normal 21px/28px Segoe UI;
-    letter-spacing: 0px;
+    color: rgb(112, 109, 109);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;letter-spacing: 0px;
     color: #707070;
     opacity: 1;
+    
+    font-size: larger;
 }
 
 .inputgovernessCode{
     margin: 4.6%;
     border-color: white;
     border-radius: 7%;
-    height: 4vh;
+    height: 4.5vh;
     width: 20vw;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border-radius: 20px;

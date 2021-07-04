@@ -9,17 +9,26 @@
 }
 
 .login_logo{
-margin-top: 1.5%;
-margin-left: 1.5%;
+    top: 1.5%;
+    left: 1.5%;
     width: 10%;
     height: 20vh;
     background: transparent url('../image/logo.png') 0% 0% no-repeat padding-box;
     opacity: 1;
+    position: absolute;
+}
+.labelsL{
+margin-top: 8vh;
+    left: 50%;
+    display: flex;
+    margin-bottom: 4vh;
+    justify-content: space-between;
+    margin-right: 25%;
+    margin-left: 25%;
 }
 
 .loginDivG{
-    /* bottom: 10vh; */
-    /* left: 10%; */
+   
     width: 48%;
     height: 43vh;
     background: #E6F8FF 0% 0% no-repeat padding-box;
@@ -28,10 +37,7 @@ margin-left: 1.5%;
     opacity: 1;
 }
 .loginG{
-    /* top: 280px;
-left: 425px; */
-/* width: 48%;
-height: 10vh; */
+    
 text-align: center;
 font: normal normal normal 45px/60px Segoe UI;
 letter-spacing: 0px;
@@ -40,22 +46,13 @@ opacity: 1;
 } 
 
 .nameL{
-    /* top: 402px;
-    left: 538px;
-    width: 113px;
-    height: 28px; 
-     text-align: left; */
+    
     font: normal normal normal 21px/28px Segoe UI;
-    /* letter-spacing: 0px; */
+   
     color: #707070;
-    /* opacity: 1; */
 }
 .inputEmailL{
-    /* top: 430px;
-    left: 433px;
-    width: 324px;
-    height: 39px; */
-/* UI Properties */
+ 
 margin: 4.6%;
     border-color: white;
     border-radius: 7%;
@@ -67,23 +64,13 @@ margin: 4.6%;
 }
 
 .passwordL{
-    /* top: 500px;
-left: 564px;
-width: 62px;
-height: 28px; 
-text-align: left;*/
+
 font: normal normal normal 21px/28px Segoe UI;
-/* letter-spacing: 0px; */
 color: #707070;
-/* opacity: 1; */
 }
 
 
 .inputPasswordL{
-    /* top: 535px;
-    left: 433px;
-    width: 324px;
-    height: 39px; */
     margin: 4.6%;
     border-color: white;
     border-radius: 7%;
@@ -96,32 +83,27 @@ color: #707070;
 
 
 .loginBtn{
-    /* top: 709px;
-left: 361px; */
+color: rgb(112, 109, 109);
 width: 48%;
 height: 11vh;
-
 background: #FFE6F3 0% 0% no-repeat padding-box;
 box-shadow: 0px 3px 6px #00000029;
 border-radius: 23px;
 opacity: 1;
+border-radius: 1.5rem;
+border-color: rgb(245, 219, 241);
+font-size: 2rem ;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .loginP{
-    /* top: 280px;
-left: 1095px;
-width: 309px;
-height: 60px; */
-/* text-align: left; */
 font: normal normal normal 45px/60px Segoe UI;
-/* letter-spacing: 0px; */
 color: #707070;
 opacity: 1;
 }
 
 .loginDivP{
-    /* top: 349px;
-left: 1016px; */
+
 width: 48%;
     height: 43vh;
 background: #E6F8FF 0% 0% no-repeat padding-box;
@@ -131,22 +113,15 @@ opacity: 1;
 }
 
 .emailPL{
-    /* top: 402px;
-left: 1222px;
-width: 56px;
-height: 28px; 
-text-align: left;*/
+    
 font: normal normal normal 21px/28px Segoe UI;
-/* letter-spacing: 0px; */
+
 color: #707070;
 opacity: 1;
 }
 
 .emailInputL{
-    /* top: 430px;
-left: 1088px;
-width: 324px;
-height: 39px; */
+
 margin: 4.6%;
     border-color: white;
     border-radius: 7%;
@@ -158,22 +133,14 @@ opacity: 1;
 }
 
 .passwordPL{
-    /* top: 500px;
-left: 1219px;
-width: 62px;
-height: 28px; 
-text-align: left;*/
+
 font: normal normal normal 21px/28px Segoe UI;
-/* letter-spacing: 0px; */
+
 color: #707070;
 opacity: 1;
 }
 
 .inputPasswordL{
-    /* top: 535px;
-left: 1088px;
-width: 324px;
-height: 39px; */
 margin: 4.6%;
     border-color: white;
     border-radius: 7%;
@@ -185,14 +152,17 @@ opacity: 1;
 }
 
 .loginBtnP{
-/* top: 709px; */
-/* left: 1016px; */
 width: 48%;
 height: 11vh;
 background: #FFE6F3 0% 0% no-repeat padding-box;
 box-shadow: 0px 3px 6px #00000029;
 border-radius: 23px;
 opacity: 1;
+border-radius: 1.5rem;
+border-color: rgb(245, 219, 241);
+font-size: 2rem ;
+color: rgb(112, 109, 109);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .buttonsL{
@@ -216,11 +186,4 @@ opacity: 1;
 }
 
 
-.labelsL{
-    left: 50%;
-    display: flex;
-    margin-bottom: 4vh;
-    justify-content: space-between;
-    margin-right: 25%;
-    margin-left: 25%;
-}
+

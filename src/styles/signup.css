@@ -5,7 +5,7 @@ background: url('../image/backgroundYellow.png') top right;
 background-attachment:fixed;
 background-size: cover;
 overflow: hidden;
-position: relative;
+position: absolute;
 }
 
 .signup_logo{
@@ -15,12 +15,15 @@ position: relative;
         height: 112px;
         background: transparent url('../image/logo.png') 0% 0% no-repeat padding-box;
         opacity: 1;
+        position: absolute;
+
     }
 
 .signUpLabel_G{
 
 text-align: left;
-font: normal normal normal 45px/60px Segoe UI;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: xx-large;
 letter-spacing: 0px;
 color: #707070;
 opacity: 1;
@@ -28,8 +31,9 @@ opacity: 1;
 
 .signUpLabel_P{
     text-align: left;
-    font: normal normal normal 45px/60px Segoe UI;
-    letter-spacing: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;   
+     letter-spacing: 0px;
     color: #707070;
     opacity: 1;
 }
@@ -37,45 +41,52 @@ opacity: 1;
 .labels{
     left: 50%;
     display: flex;
-    margin-top: 0%;
+    margin-top: 3vh;
     justify-content: space-between;
     margin-right: 25%;
     margin-left: 25%;
+
 }
 
 
 .userNameS{
-    top: 266px;
+    /* top: 266px;
 left: 538px;
 width: 113px;
-height: 28px;
+height: 28px; */
 text-align: left;
-font: normal normal normal 21px/28px Segoe UI;
-letter-spacing: 0px;
+color: rgb(112, 109, 109);
+font-family: Verdana, Geneva, Tahoma, sans-serif;letter-spacing: 0px;
 color: #707070;
 opacity: 1;
+font-size: larger;
+
 }
 
 .userNameInputS{
     margin: 4.6%;
     border-color: white;
     border-radius: 7%;
-    height: 4vh;
+    height: 4.5vh;
     width: 20vw;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border-radius: 20px;
+font-size: larger;
+
 opacity: 1;
 }
 
 .passwordS{
-    top: 364px;
+    /* top: 364px;
 left: 564px;
 width: 62px;
-height: 28px;
+height: 28px; */
 text-align: left;
-font: normal normal normal 21px/28px Segoe UI;
-letter-spacing: 0px;
+color: rgb(112, 109, 109);
+font-family: Verdana, Geneva, Tahoma, sans-serif;letter-spacing: 0px;
 color: #707070;
+font-size: larger;
+
 opacity: 1;
 }
 
@@ -83,29 +94,34 @@ opacity: 1;
     margin: 4.6%;
     border-color: white;
     border-radius: 7%;
-    height: 4vh;
+    height: 4.5vh;
     width: 20vw;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border-radius: 20px;
+
+font-size: larger;
 opacity: 1;
 }
 
 .signUpBtnGS{
-    top: 820px;
-left: 361px;
-width: 467px;
-height: 80px;
-background: #FFE6F3 0% 0% no-repeat padding-box;
-box-shadow: 0px 3px 6px #00000029;
-border-radius: 23px;
-opacity: 1;
+    width: 40%;
+    height: 9vh;
+    background: #FFE6F3 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 23px;
+    opacity: 1;
+    color: rgb(112, 109, 109);
+    border-radius: 1.5rem;
+    border-color: rgb(245, 219, 241);
+    font-size: 2rem ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 
 .signup2{
-    width: 50vh;
-    height:32vw;
+    width: 40%;
+    height:73vh;
 background: #E6F8FF 0% 0% no-repeat padding-box;
 box-shadow: 0px 3px 6px #00000029;
 border-radius: 36px;
@@ -113,9 +129,8 @@ opacity: 1;
 
 }
 .signUp{
-
-    width: 50vh;
-   height:32vw;
+    width: 40%;
+    height:73vh;
    background: #E6F8FF 0% 0% no-repeat padding-box;
    box-shadow: 0px 3px 6px #00000029;
    border-radius: 36px;
@@ -123,22 +138,24 @@ opacity: 1;
 }
 
 .userNamePS{
-    top: 266px;
+    /* top: 266px;
 left: 1222px;
 width: 56px;
-height: 28px;
+height: 28px; */
 text-align: left;
-font: normal normal normal 21px/28px Segoe UI;
-letter-spacing: 0px;
+color: rgb(112, 109, 109);
+font-family: Verdana, Geneva, Tahoma, sans-serif;letter-spacing: 0px;
 color: #707070;
 opacity: 1;
+
+font-size: larger;
 }
 
 .userNameInputPS{
     margin: 4.6%;
     border-color: white;
     border-radius: 7%;
-    height: 4vh;
+    height: 4.5vh;
     width: 20vw;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border-radius: 20px;
@@ -146,14 +163,16 @@ opacity: 1;
 }
 
 .passwordPS{
-    top: 364px;
+    /* top: 364px;
 left: 1219px;
 width: 62px;
-height: 28px;
+height: 28px; */
 text-align: left;
-font: normal normal normal 21px/28px Segoe UI;
-letter-spacing: 0px;
+color: rgb(112, 109, 109);
+font-family: Verdana, Geneva, Tahoma, sans-serif;letter-spacing: 0px;
 color: #707070;
+
+font-size: larger;
 opacity: 1;
 }
 
@@ -161,22 +180,24 @@ opacity: 1;
     margin: 4.6%;
     border-color: white;
     border-radius: 7%;
-    height: 4vh;
+    height: 4.5vh;
     width: 20vw;
-background: #FFFFFF 0% 0% no-repeat padding-box;
-border-radius: 20px;
+    color: rgb(112, 109, 109);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;border-radius: 20px;
 opacity: 1;
 }
 
 .govCodeS{
-    top: 462px;
+    /* top: 462px;
 left: 1198px;
 width: 103px;
-height: 28px;
+height: 28px; */
 text-align: left;
-font: normal normal normal 21px/28px Segoe UI;
-letter-spacing: 0px;
+color: rgb(112, 109, 109);
+font-family: Verdana, Geneva, Tahoma, sans-serif;letter-spacing: 0px;
 color: #707070;
+
+font-size: larger;
 opacity: 1;
 }
 
@@ -184,7 +205,7 @@ opacity: 1;
     margin: 4.6%;
     border-color: white;
     border-radius: 7%;
-    height: 4vh;
+    height: 4.5vh;
     width: 20vw;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border-radius: 20px;
@@ -192,14 +213,16 @@ opacity: 1;
 }
 
 .childNameS{
-    top: 559px;
+    /* top: 559px;
     left: 1211px;
     width: 78px;
-    height: 28px;
+    height: 28px; */
     text-align: left;
-    font: normal normal normal 21px/28px Segoe UI;
-    letter-spacing: 0px;
+    color: rgb(112, 109, 109);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    letter-spacing: 0px;
     color: #707070;
+
+    font-size: larger;
     opacity: 1;
 }
 
@@ -207,7 +230,7 @@ opacity: 1;
     margin: 4.6%;
     border-color: white;
     border-radius: 7%;
-    height: 4vh;
+    height: 4.5vh;
     width: 20vw;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border-radius: 20px;
@@ -215,13 +238,14 @@ opacity: 1;
 }
 
 .childIdS{
-    top: 667px;
+    /* top: 667px;
 left: 1210px;
 width: 79px;
-height: 28px;
+height: 28px; */
 text-align: left;
-font: normal normal normal 21px/28px Segoe UI;
-letter-spacing: 0px;
+color: rgb(112, 109, 109);
+font-family: Verdana, Geneva, Tahoma, sans-serif;letter-spacing: 0px;
+font-size: larger;
 color: #707070;
 opacity: 1;
 }
@@ -230,7 +254,7 @@ opacity: 1;
     margin: 4.6%;
     border-color: white;
     border-radius: 7%;
-    height: 4vh;
+    height: 4.5vh;
     width: 20vw;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border-radius: 20px;
@@ -238,14 +262,17 @@ opacity: 1;
 }
 
 .signUpBtnPS{
-    top: 820px;
-left: 1016px;
-width: 467px;
-height: 80px;
-background: #FFE6F3 0% 0% no-repeat padding-box;
-box-shadow: 0px 3px 6px #00000029;
-border-radius: 23px;
-opacity: 1;
+    width: 40%;
+    height: 9vh;
+    background: #FFE6F3 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 23px;
+    opacity: 1;
+    color: rgb(112, 109, 109);
+    border-radius: 1.5rem;
+    border-color: rgb(245, 219, 241);
+    font-size: 2rem ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
  
 .containerS{

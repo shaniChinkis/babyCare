@@ -60,8 +60,7 @@ const SignUp = () => {
                     <label className="passwordS">סיסמא</label>
                     <br />
                     <input className="passwordInputS" type="password" onChange={(e) => setPassword(e.target.value)} />
-                    <br />  <br />  <br />  <br />  <br />  <br />  <br />  <br />  <br />  <br />
-                    <br />  <br />  <br />  <br />  <br />  <br />
+                   
                 </div>
 
 

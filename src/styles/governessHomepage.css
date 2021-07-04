@@ -79,6 +79,9 @@ background-size: cover;
     bottom: 13vh;   
     left: 28%;
     position: absolute;
+    color: rgb(112, 109, 109);
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
@@ -92,6 +95,8 @@ background-size: cover;
     bottom: 17vh;
     left: 46.6%;
     position: absolute;
+    color: rgb(112, 109, 109);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
@@ -105,5 +110,6 @@ background-size: cover;
     bottom: 13vh;   
     left: 64.5%;
     position: absolute;
-
+    color: rgb(112, 109, 109);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
