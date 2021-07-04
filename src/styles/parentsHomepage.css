@@ -3,7 +3,7 @@
 height:100%; 
 background: url('../image/backgroundPink.png') top right;
 background-attachment:fixed;
-background-size: cover;
+/* background-size: cover; */
 overflow: hidden;
 position: absolute;
 display: flex;
@@ -21,22 +21,23 @@ flex-direction: row;
 
 .patentsmobileImg{
     width: 50%;
-    height: 70%;
-  background: transparent url('../image/mobile2.png') 0% 0% no-repeat padding-box;
-  opacity: 1;
-  margin-left: 25%;
-  margin-right: 25%;
-  position: absolute;
+    height: 70vh;
+    background: transparent url('../image/mobile2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: 25%;
+    margin-right: 25%;
+    position: absolute;
+    background-size: 100%;
 }
 
 .bp1{
     border-radius: 15rem;
     background: #E6F8FF 0% 0% no-repeat padding-box;
     width: 8%;
-    height: 16%;
+    height: 16vh;
     border: solid 17px black;
-    margin-top: 35%;
-    margin-left: 24%;
+    bottom: 9.5vh;
+    left: 24%;
     position: absolute;
 
 }
@@ -45,10 +46,10 @@ flex-direction: row;
     border-radius: 15rem;
     background: #E6F8FF 0% 0% no-repeat padding-box;
     width: 8%;
-    height: 16%;
+    height: 16vh;
     border: solid 17px black;
-    margin-top: 30%;
-    margin-left: 36.5%;
+    bottom:16vh;
+    left: 37.5%;
     position: absolute;
 
 }
@@ -57,10 +58,10 @@ flex-direction: row;
     border-radius: 15rem;
     background: #E6F8FF 0% 0% no-repeat padding-box;
     width: 8%;
-    height: 16%;
+    height: 16vh;
     border: solid 17px black;
-    margin-top: 35%;
-    margin-left:48%;
+    bottom: 9.5vh;
+    left:50%;
     position: absolute;
 
 }
@@ -69,10 +70,10 @@ flex-direction: row;
     border-radius: 15rem;
     background: #E6F8FF 0% 0% no-repeat padding-box;
     width: 8%;
-    height: 16%;
+    height: 16vh;
     border: solid 17px black;
-    margin-top: 30%;
-    margin-left: 62%;
+    bottom:16vh;
+    left: 65.5%;
     position: absolute;
 
 }
@@ -83,9 +84,9 @@ flex-direction: row;
     font-size: 1.2rem;
     border-radius: 15rem;
     width: 7%;
-    height: 14%;
-    margin-top:36.5%;
-    margin-left: 25.5%;
+    height: 14vh;
+    bottom: 13.5vh; 
+    left: 25.5%;
     position: absolute;
 
 }
@@ -96,9 +97,9 @@ flex-direction: row;
     font-size: 1.2rem;
     border-radius: 15rem;
     width: 7%;
-    height: 14%;
-    margin-top: 31.5%;
-    margin-left: 38%;
+    height: 14vh;
+    bottom: 19vh; 
+    left: 39%;
     position: absolute;
 
 }
@@ -109,9 +110,9 @@ flex-direction: row;
     font-size: 1.2rem;
     border-radius: 15rem;
     width: 7%;
-    height: 14%;
-    margin-top:36.5%;
-    margin-left: 49.5%;
+    height: 14vh;
+    bottom: 13.5vh; 
+    left: 51.5%;
     position: absolute;
 
 }
@@ -122,9 +123,9 @@ flex-direction: row;
     font-size: 1.2rem;
     border-radius: 15rem;
     width: 7%;
-    height: 14%;
-    margin-top: 31%;
-    margin-left: 63.5%;
+    height: 14vh;
+    bottom: 18.5vh; 
+    left: 67%;
     position: absolute;
 
 }
@@ -132,11 +133,11 @@ flex-direction: row;
 .addNewChildren{
     border-radius: 15rem;
     background: #E6F8FF 0% 0% no-repeat padding-box;
-    width: 12vw;
-    height:4vh;
+    width: 15%;
+    height:6vh;
     border: solid 0px white;
-    margin-top: 45%;
-    margin-left: 4%;
+    bottom: 8vh; 
+    left: 4%;
     position: absolute;
     font-size: 1.2rem;
     
@@ -146,11 +147,12 @@ flex-direction: row;
     /* background: transparent url('../image/arrow.png') 0% 0% no-repeat padding-box; */
     border-radius: 15rem;
     background: #ffe6f3 0% 0% no-repeat padding-box;
-    width: 12vw;
-    height:4vh;
+    width: 15%;
+    height:6vh;
     border: solid 0px white;
-    margin-top: 2%;
-    margin-left:85% ;   
+    top: 2%;
+    /* left:85% ;    */
+    right: 5%;
     position: absolute;
     font-size: 1.2rem;
     text-align: center;
