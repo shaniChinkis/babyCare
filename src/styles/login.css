@@ -11,44 +11,44 @@
 .login_logo{
 margin-top: 1.5%;
 margin-left: 1.5%;
-    width: 103px;
-    height: 112px;
+    width: 10%;
+    height: 20vh;
     background: transparent url('../image/logo.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
 .loginDivG{
-    top: 349px;
-    left: 361px;
-    width: 467px;
-    height: 310px;
+    /* bottom: 10vh; */
+    /* left: 10%; */
+    width: 48%;
+    height: 43vh;
     background: #E6F8FF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
     border-radius: 36px;
     opacity: 1;
 }
 .loginG{
-    top: 280px;
-left: 425px;
-width: 339px;
-height: 60px;
-text-align: left;
+    /* top: 280px;
+left: 425px; */
+/* width: 48%;
+height: 10vh; */
+text-align: center;
 font: normal normal normal 45px/60px Segoe UI;
 letter-spacing: 0px;
 color: #707070;
 opacity: 1;
-}
+} 
 
 .nameL{
-    top: 402px;
+    /* top: 402px;
     left: 538px;
     width: 113px;
-    height: 28px;
-    text-align: left;
+    height: 28px; 
+     text-align: left; */
     font: normal normal normal 21px/28px Segoe UI;
-    letter-spacing: 0px;
+    /* letter-spacing: 0px; */
     color: #707070;
-    opacity: 1;
+    /* opacity: 1; */
 }
 .inputEmailL{
     /* top: 430px;
@@ -59,7 +59,7 @@ opacity: 1;
 margin: 4.6%;
     border-color: white;
     border-radius: 7%;
-    height: 13%;
+    height: 5.5vh;
     width: 65%;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 20px;
@@ -67,15 +67,15 @@ margin: 4.6%;
 }
 
 .passwordL{
-    top: 500px;
+    /* top: 500px;
 left: 564px;
 width: 62px;
-height: 28px;
-text-align: left;
+height: 28px; 
+text-align: left;*/
 font: normal normal normal 21px/28px Segoe UI;
-letter-spacing: 0px;
+/* letter-spacing: 0px; */
 color: #707070;
-opacity: 1;
+/* opacity: 1; */
 }
 
 
@@ -87,7 +87,7 @@ opacity: 1;
     margin: 4.6%;
     border-color: white;
     border-radius: 7%;
-    height: 13%;
+    height: 5.5vh;
     width: 65%;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 20px;
@@ -96,10 +96,10 @@ opacity: 1;
 
 
 .loginBtn{
-    top: 709px;
-left: 361px;
-width: 467px;
-height: 80px;
+    /* top: 709px;
+left: 361px; */
+width: 48%;
+height: 11vh;
 
 background: #FFE6F3 0% 0% no-repeat padding-box;
 box-shadow: 0px 3px 6px #00000029;
@@ -108,22 +108,22 @@ opacity: 1;
 }
 
 .loginP{
-    top: 280px;
+    /* top: 280px;
 left: 1095px;
 width: 309px;
-height: 60px;
-text-align: left;
+height: 60px; */
+/* text-align: left; */
 font: normal normal normal 45px/60px Segoe UI;
-letter-spacing: 0px;
+/* letter-spacing: 0px; */
 color: #707070;
 opacity: 1;
 }
 
 .loginDivP{
-    top: 349px;
-left: 1016px;
-width: 467px;
-height: 310px;
+    /* top: 349px;
+left: 1016px; */
+width: 48%;
+    height: 43vh;
 background: #E6F8FF 0% 0% no-repeat padding-box;
 box-shadow: 0px 3px 6px #00000029;
 border-radius: 36px;
@@ -131,13 +131,13 @@ opacity: 1;
 }
 
 .emailPL{
-    top: 402px;
+    /* top: 402px;
 left: 1222px;
 width: 56px;
-height: 28px;
-text-align: left;
+height: 28px; 
+text-align: left;*/
 font: normal normal normal 21px/28px Segoe UI;
-letter-spacing: 0px;
+/* letter-spacing: 0px; */
 color: #707070;
 opacity: 1;
 }
@@ -150,7 +150,7 @@ height: 39px; */
 margin: 4.6%;
     border-color: white;
     border-radius: 7%;
-    height: 13%;
+    height: 5.5vh;
     width: 65%;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border-radius: 20px;
@@ -158,13 +158,13 @@ opacity: 1;
 }
 
 .passwordPL{
-    top: 500px;
+    /* top: 500px;
 left: 1219px;
 width: 62px;
-height: 28px;
-text-align: left;
+height: 28px; 
+text-align: left;*/
 font: normal normal normal 21px/28px Segoe UI;
-letter-spacing: 0px;
+/* letter-spacing: 0px; */
 color: #707070;
 opacity: 1;
 }
@@ -177,7 +177,7 @@ height: 39px; */
 margin: 4.6%;
     border-color: white;
     border-radius: 7%;
-    height: 13%;
+    height: 5.5vh;
     width: 65%;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border-radius: 20px;
@@ -185,10 +185,10 @@ opacity: 1;
 }
 
 .loginBtnP{
-    top: 709px;
-left: 1016px;
-width: 467px;
-height: 80px;
+/* top: 709px; */
+/* left: 1016px; */
+width: 48%;
+height: 11vh;
 background: #FFE6F3 0% 0% no-repeat padding-box;
 box-shadow: 0px 3px 6px #00000029;
 border-radius: 23px;
@@ -199,7 +199,7 @@ opacity: 1;
     
     left: 50%;
     display: flex;
-    margin-top: 2%;
+    margin-top: 6vh;
     justify-content: space-between;
     margin-right: 20%;
     margin-left: 20%;
@@ -209,7 +209,7 @@ opacity: 1;
     
     left: 50%;
     display: flex;
-    margin-top: 3%;
+    margin-top: 6vh;
     justify-content: space-between;
     margin-right: 20%;
     margin-left: 20%;
@@ -219,7 +219,7 @@ opacity: 1;
 .labelsL{
     left: 50%;
     display: flex;
-    margin-top: 4%;
+    margin-bottom: 4vh;
     justify-content: space-between;
     margin-right: 25%;
     margin-left: 25%;
