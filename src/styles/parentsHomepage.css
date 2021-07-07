@@ -174,10 +174,13 @@ flex-direction: row;
 }
 
 .pforback{
-    background: transparent url('../image/arrow.png') 0% 0% no-repeat padding-box;
-    width:2vw;
-    height:4vh;
-    border: solid 0px #ffe6f3 !important;
+    background: transparent url('../image/new.png') 0% 0% no-repeat padding-box !important;
+    /* background-size: cover !important; */
+    width:18%;
+    height:5vh;
+    border: solid 0px #ffe6f3 ;
     display: inline;
     margin-right: 0.5rem;
+   /* height:2.5vh ;
+   width: 2.5%; */
 }

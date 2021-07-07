@@ -36,7 +36,7 @@ const ParentsHomepage=()=>{
             <button className="pHpBtn4" onClick={()=>onclickButtonP("showChildrenList")}>לצפיה בפעילות הילד</button>
             <div className="new"></div>
             <button className="addNewChildren">➕ להרשמת ילד נוסף</button>
-            <button className="backToHome"><img className="pforback"/>חזרה לדף הבית</button>
+            <button className="backToHome"><div className="pforback"/>חזרה לדף הבית</button>
 
         </div>
     )

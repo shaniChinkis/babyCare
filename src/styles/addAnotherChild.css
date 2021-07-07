@@ -1,24 +1,15 @@
 .addanothrchild_div{
-    width: 30%;
-    height:43vh;
+    width: 40%;
+    height:48vh;
+    top:10vh;
 background: #E6F8FF 0% 0% no-repeat padding-box;
 box-shadow: 0px 3px 6px #00000029;
 border-radius: 36px;
 opacity: 1;
-position: absolute;
+margin-right: 25%;
 }
 
 
-/* button{
-    height: 3.5rem;
-    width: 20rem;
-    background-color: rgb(245, 219, 241);
-    border-radius: 1.5rem;
-    border-color: rgb(245, 219, 241);
-    font-size: 2rem ;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(112, 109, 109);
-} */
 
 .all_addAnotherChild{
     width:100%; 
@@ -38,14 +29,25 @@ position: absolute;
     opacity: 1;
 
 }
-
 .label_addAnotherChild{
-    left: 50%;
-    display: flex;
-    margin-top: 4%;
-    margin-right: 25%;
-    margin-left: 25%;
+  margin-left: 36.5%;
+text-align: left;
+font: normal normal normal 45px/60px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
 }
+
+/* .label_addAnotherChild{
+    margin-left: 50%;
+    margin-top: 5vh;
+   margin-right:  25%;
+    /* left: 25%; */
+    /* display: flex;
+    justify-content: 'center';
+    align-items: 'center';
+    
+} */ 
 
 .addAnotherChild_logo{
     margin-top: 1.5%;
@@ -60,9 +62,10 @@ position: absolute;
 .container_addAnotherChild{
     left: 50%;
     display: flex;
-    margin-top: 3%;
+    margin-top: 3vh;
     justify-content: space-between;
     margin-left: 35%;
+    height: 50vh;
 }
 .governessCode{
     text-align: left;
@@ -85,20 +88,13 @@ border-radius: 20px;
 opacity: 1;
 }
 
-.label_addAnotherChild{
-    left: 50%;
-    display: flex;
-    margin-top: 4%;
-    justify-content: space-between;
-    margin-right: 0%;
-    margin-left: 40%;
-}
+
 
 .inputChildNameAdd{
     margin: 4.6%;
     border-color: white;
     border-radius: 7%;
-    height: 13%;
+    height: 13vh;
     width: 65%;
 text-align: left;
 font: normal normal normal 21px/28px Segoe UI;
@@ -119,10 +115,10 @@ opacity: 1;
 }
 
 .IdAdd{
-    top: 561px;
+    /* top: 561px;
 left: 929px;
 width: 79px;
-height: 28px;
+height: 28px; */
 text-align: left;
 font: normal normal normal 21px/28px Segoe UI;
 letter-spacing: 0px;
@@ -142,28 +138,19 @@ opacity: 1;
 }
 
 .addChildAdd{
-    top: 764px;
-left: 727px;
-width: 467px;
-height: 80px;
+    color: rgb(112, 109, 109);
+    margin-right:4%;
+
+width: 26%;
+height: 11vh;
 background: #FFE6F3 0% 0% no-repeat padding-box;
 box-shadow: 0px 3px 6px #00000029;
 border-radius: 23px;
 opacity: 1;
-width: 26.5%;
-margin-right: 1%;
-
+border-radius: 1.5rem;
+border-color: rgb(245, 219, 241);
+font-size: 2rem ;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+bottom: 5vh;
 }
 
-.labelbig{
-text-align: left;
-font: normal normal normal 45px/60px Segoe UI;
-letter-spacing: 0px;
-color: #707070;
-opacity: 1;
-}
-
-.buttons_addAnotherChild{
-    margin-top: 3%;
-    margin-right: 3%;
-}
