@@ -45,6 +45,17 @@
 
 } */
 
+.row2label1{
+    background: #FFFCE6 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    font-size: 70%;
+    font-weight:600;
+    font-family: Segoe UI;
+    color: #474747;
+    border-width: 0px;
+    height: 100%;
+    width: 100%;
+}
  .row2input1{
     background: #FFFCE6 0% 0% no-repeat padding-box;
     border-radius: 10px;
@@ -90,6 +101,8 @@
 border-bottom: 0px !important; 
 height: 7.5vh ;
 border-radius: 10px;
+margin: 5%;
+
 }
 
 
@@ -101,6 +114,29 @@ border-radius: 10px;
 
 }
 
+.divY{
 
+    background: #FFFCE6 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight:600;
+    font-family: Segoe UI;
+    color: #474747;
+    border-width: 0px;
+    height: 100%;
+    width: 100%;
+    
+}
 
+.divB{
+    background: #E6F8FF  0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight:600;
+    font-family: Segoe UI;
+    color: #474747;
+    border-width: 0px;
+    height: 100%;
+    width: 100%
+}
 

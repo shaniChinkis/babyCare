@@ -41,11 +41,11 @@ const CategoriesFill = () => {
                     </TableRow>
                 </TableHead>
                 <TableBody>
-                    {rows.map((row) => (
+                    {rows.map((row,i) => (
                         <TableRow key={row.category}>
-                            <TableCell align="center">{row.time}</TableCell>
+                            <TableCell  align="center">{row.time}</TableCell>
                             <TableCell align="center">{row.details}</TableCell>
-                            <TableCell align="center"> {row.category}</TableCell>
+                            <TableCell align="center"> <div className={i%2==0? "divY" : "divB"} style={{width:'100% !important' }, {height:'100% !important'} ,{ backgroundColor:'#FFFCE6 0% 0% no-repeat padding-box !important' }}>{row.category}</div></TableCell>
                         </TableRow>
                     ))}
                 </TableBody>

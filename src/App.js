@@ -9,6 +9,7 @@ import Categories from './components/categories'
 import ChildrenList from './components/childrenList'
 import Child from './components/child'
 import CategoriesFill from './components/categoriesFill';
+import CategoryDescription from './components/categoryDescription'
 import {Switch, Route, BrowserRouter as Router } from "react-router-dom"
 
 export default function App() {
@@ -18,6 +19,9 @@ export default function App() {
       <Switch>
       <Route path="/CategoriesFill">
           <CategoriesFill/>
+          </Route>
+          <Route path="/CategoryDescription">
+          <CategoryDescription/>
           </Route>
           <Route path="/SignUp">
           <SignUp/>
