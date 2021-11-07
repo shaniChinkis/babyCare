@@ -3,7 +3,7 @@
     margin-left: 1.5%;
         width: 10vw;
         height: 20vh;
-        background: transparent url('../image/baby.png') 0% 0% no-repeat padding-box;
+        background: transparent url('../image/baby.png') 0% 0% padding-box;
         opacity: 1;
         border: 0px ;
         border-radius: 5rem;
@@ -17,14 +17,12 @@
     width: 8vw;
     height: 4vh;
    
-    position: absolute;
 }
 
 .allBaby{
     /* border: solid 17px black; */
     width: 10vw;
     height: 30vh;
-    position: absolute;
 /* margin-top: 20%; */
 }
 
