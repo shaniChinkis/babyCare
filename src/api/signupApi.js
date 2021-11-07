@@ -5,9 +5,7 @@ export const signupPApi = (email, password,governessCode, childName,childId) => 
   return fetch('http://localhost:3001/signUpP',
   {
       method:'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
+
       body:JSON.stringify({email:email,
             password:password,
             governessCode:governessCode,
