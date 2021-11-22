@@ -20,7 +20,7 @@ function createData(category, details, time) {
 }
 
 const rows = [
-    createData('אוכל', <input className="row2input1" />, <input className="row2input1" />) ,
+    createData(<div className="allEat"><label className="labelCtegory">אוכל</label><div className="qwer"></div></div> ,<input className="row2input1" />, <input className="row2input1" />) ,
     createData('שינה', <input className="row2input2" />, <input className="row2input2" />),
     createData('התפתחות', <input className="row2input1" />, <input className="row2input1" />),
     createData('פעילות', <input className="row2input2" />, <input className="row2input2" />),

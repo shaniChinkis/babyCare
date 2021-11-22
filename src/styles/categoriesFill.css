@@ -83,11 +83,11 @@
 .ColumnHeader{
     background: #FFE6F3 0% 0% no-repeat padding-box;
     border-radius: 10px;
-    font-size: 200% !important;
-    font-weight:600 !important;
+    font-size: 100% !important;
+    font-weight:200 !important;
     font-family: Segoe UI;
     color: #474747;
-    border-width: 10px !important;
+    border-width: 5px !important;
     
 }
  .allTable{
@@ -125,7 +125,10 @@ margin: 5%;
     border-width: 0px;
     height: 100%;
     width: 100%;
-    
+    justify-content: center !important;
+    align-items: center !important;
+    position: relative;
+
 }
 
 .divB{
@@ -139,4 +142,24 @@ margin: 5%;
     height: 100%;
     width: 100%
 }
+.qwer{
+   width: 2.1vw;
+   height: 6vh;
+   background: transparent url('../image/eat.png') 0% 0% no-repeat padding-box;
+   opacity: 1;
+   background-size: cover;
+ 
+}
 
+.allEat{
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.labelCtegory{
+     margin-right: 3vh;
+}
